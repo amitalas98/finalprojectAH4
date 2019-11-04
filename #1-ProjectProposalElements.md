@@ -14,8 +14,8 @@ Autumn 2019
 4. How it will be addressed?
 
 ### 2.0 Research Questions
-* Research Question 1:
-* Research Question 2:
+* Research Question 1: How do factors like unemployment rates, poverty percentage, and profession contribute to each state’s suicide rate?
+* Research Question 2: What programs, societal changes, and overall trends have led to more people avoiding suicide? What has done the opposite?
 
 ### 3.0 Possible Data Sets
 * Data Set 1: [Suicide Rate Overview 1985 to 2016](https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016)
