@@ -23,4 +23,4 @@ And so on...
 ## Our Project Proposal
 A more detailed breakdown of our project proposal is linked below.
 
-[Project Proposal](https://github.com/amitalas98/finalprojectAH4.wiki.git)
+[Project Proposal](https://github.com/amitalas98/finalprojectAH4/wiki)
