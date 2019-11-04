@@ -24,8 +24,11 @@ How do factors like unemployment rates, poverty percentage, and profession contr
 What programs, societal changes, and overall trends have led to more people avoiding suicide? What has done the opposite?
 
 ### 3.0 Possible Data Sets
-* Data Set 1: [US Suicides per State](https://wisqars.cdc.gov:8443/cdcMapFramework/mapModuleInterface.jsp)
-* Data Set 2: [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data)
+* Data Set 1: [US Suicides per State](https://wisqars.cdc.gov:8443/cdcMapFramework/mapModuleInterface.jsp)  
+This data set comes from the Fatal Injury Mapping. Included in this dataset is the rate of suicide for each state in the US through a number of years. This includes data from all 50 states and Washington D.C with 4 different time frames. Attributes inside the data frame include the population of each state, the amount of suicide-related deaths, and the ‘unsmoothed crude rate’ of suicide for each state.
+
+* Data Set 2: [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data)  
+This data set was collected by the US Census Bureau. It examines the total population of the United States and breaks it down into ethnic and gender characteristics. It also examines factors such as income, poverty, and employment. These attributes provide a comprehensive overview of the situation in each county and state. In the county dataset, there are 3221 observations and 37 attributes.
 
 ### 4.0 Information Visualizations
 These visualizations display trends of suicide in the United States.   
