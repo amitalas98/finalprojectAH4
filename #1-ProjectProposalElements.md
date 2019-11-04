@@ -22,8 +22,11 @@ Autumn 2019
 * Data Set 2: [US Unemployment Rates by County 1990-2016](https://www.kaggle.com/jayrav13/unemployment-by-county-us)
 
 ### 4.0 Information Visualizations
-![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)
-![Suicide Rates Rising](visualization-Images/suicide-rising-rates.png)
+These visualizations display trends of suicide in the United States.   
+![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)  
+**Figure 1** This image shows the trends and disparities of men and women through the years 1999 to 2017  
+![Suicide Rates Rising](visualization-Images/suicide-rising-rates.png)  
+**Figure 2** This image shows the rates of suicide rate growth from the years 1999 to 2016
 
 ### 5.0 Team Coordination
 1. Meeting Times:
@@ -41,5 +44,5 @@ Autumn 2019
 
 
 ### 7.0 References
-Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.
+Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.  
 Prasad, Ritu. “Why US Suicide Rate Is On the Rise.” *BBC News*, BBC, 11 June 2018, www.bbc.com/news/world-us-canada-44416727.
