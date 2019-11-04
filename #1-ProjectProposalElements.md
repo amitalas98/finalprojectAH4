@@ -34,7 +34,15 @@ These visualizations display trends of suicide in the United States.
 * Tuesday: 9am - 10am(back up)
 * Friday: 3:30 - 6:30(back up)
 
-2. Have fun :)
+2. Individual goal(s) for the project and your roles:
+
+Adrianna Mitalas: My goal for this project is to understand and analyze trends in the United States, find correlations between them, and apply them to my personal life and those around me. My role in the group is to organize our documents and make sure we are on track with progress.  
+
+Betty Kao: My goal for this project is to understand the reasons for the increase in the suicide rate and I hope I can find out the solution to solve the issue. I believe I am a helper in our group. I can help my groupmate do whatever they need. 
+
+Bobin Hu: I hope this project will build my skills in analyzing large data sets and presenting the information in an effective way. I also want to find out how suicide is linked to various social factors. My role will be collecting information from the Internet.  
+
+William Yu: I wish to better understand the impact mental health has on individuals my age. The opportunity to work on such a dataset, analyse trends with industry-standard techniques and build a solid foundation would prove beneficial to my future technology career. My role in this group is to input ideas, double-check on completed work and collaborate with my fellow team members such that we can grow in a mutually supportive environment.  
 
 3. We are communicating weekly on messenger and in section
 
