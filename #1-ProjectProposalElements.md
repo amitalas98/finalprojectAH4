@@ -22,6 +22,8 @@ Autumn 2019
 * Data Set 2: [US Unemployment Rates by County 1990-2016](https://www.kaggle.com/jayrav13/unemployment-by-county-us)
 
 ### 4.0 Information Visualizations
+![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)
+
 ### 5.0 Team Coordination
 1. Meeting Times:
 * Monday: 3:30pm - 6:30pm
