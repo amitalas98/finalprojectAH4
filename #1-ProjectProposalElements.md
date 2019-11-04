@@ -8,10 +8,10 @@ University of Washington
 Autumn 2019
 
 ### 1.0 Introduction
-1. Problem Situation:
-2. What is the problem?
-3. Why does it matter?
-4. How it will be addressed?
+1. Problem Situation: The stakeholders in the problem of suicide in the United States is everyone and especially those suffering with a mental illness. The setting of this problem stems from many factors of the contemporary world including unemployment, income, and profession. Excess pressure from any of these categories can push someone into a depression and, depending on the course of events after that, lead to self harm or death. Up until recent years, mental health and treatment has been far from normalized so policies and ethics around it are still fairly new as children and adults seek treatment. This can pose a challenge that people do not feel extremely comfortable seeking help for their mental needs and can lead to many people suffering alone. Society and social media in the United States especially today rides on a key value of appearing as if life is perfect, flawless, and effortless; this can directly contribute to someone’s mental health and make them feel outcasted or ashamed if they feel different.
+2. What is the problem? The problem is the continuous rising of suicide rates in the United States and the disparities between the rates in each of the states. Idaho has some of the highest rate growth from 1985-2015 while Nevada has gone down 1%. 
+3. Why does it matter? This matters because the trend of people committing suicide has been rising in the United States, this means more lives are being lost and could of been prevented. This also matters because it affects a lot of people around us and the country, especially in a stress-filled university like the UW. Moreover, preventing suicide will also promote positive energy in society and contribute to overall healthy growth for years to come.
+4. How it will be addressed? We will address this issue by proposing an education program implementation into schools across the United States to better educate, normalize, and help children, teens, and young adults about suicide, depression, and handling their mental health. This will help to lessen suicide attempts of young people and prepare the future generations of adults to seek help and spend time with their mental health issues. To help adults in the USA, we propose work time seminar that will teach and help the employees of companies about the importance of their mental health and what to do in crisis situations.
 
 ### 2.0 Research Questions
 * Research Question 1: How do factors like unemployment rates, poverty percentage, and profession contribute to each state’s suicide rate?
