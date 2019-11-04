@@ -22,6 +22,7 @@ Autumn 2019
 * Data Set 2: [US Unemployment Rates by County 1990-2016](https://www.kaggle.com/jayrav13/unemployment-by-county-us)
 
 ### 4.0 Information Visualizations
+These visualizations display trends of suicide in the United States.   
 ![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)  
 **Figure 1** This image shows the trends and disparities of men and women through the years 1999 to 2017  
 ![Suicide Rates Rising](visualization-Images/suicide-rising-rates.png)  
