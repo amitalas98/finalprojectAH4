@@ -44,5 +44,5 @@ These visualizations display trends of suicide in the United States.
 
 
 ### 7.0 References
-Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.
+Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.  
 Prasad, Ritu. “Why US Suicide Rate Is On the Rise.” *BBC News*, BBC, 11 June 2018, www.bbc.com/news/world-us-canada-44416727.
