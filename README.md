@@ -3,7 +3,7 @@ Final Project for Group AH4. Group members are:
 * Adrianna Mitalas
 * Bobin Hu
 * William Yu
-* Betty
+* Betty Kao
 
 ## Introduction
 
