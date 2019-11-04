@@ -49,7 +49,8 @@ William Yu: I wish to better understand the impact mental health has on individu
 4. We will give feedback and will address challenges in person by discussing in a group what is best for the team.
 
 ### 6.0 Questions for Teaching Team
-
+How heavy will the workload for each part of the assignment be each week?  
+Will there be a clear way to divide up each part of an assignment?  
 
 ### 7.0 References
 Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.  
