@@ -40,7 +40,6 @@ These visualizations display trends of suicide in the United States.
 * Tuesday: 9am - 10am (back up)
 * Friday: 3:30 - 6:30 (back up)
 
-<<<<<<< HEAD
 2. Individual goal(s) for the project and your roles:  
 
     Adrianna Mitalas: My goal for this project is to understand and analyze trends in the United States, find correlations between them, and apply them to my personal life and those around me. My role in the group is to organize our documents and make sure we are on track with progress.
@@ -50,33 +49,16 @@ These visualizations display trends of suicide in the United States.
     Bobin Hu: I hope this project will build my skills in analyzing large data sets and presenting the information in an effective way. I also want to find out how suicide is linked to various social factors. My role will be collecting information from the Internet.
 
     William Yu: I wish to better understand the impact mental health has on individuals my age. The opportunity to work on such a dataset, analyse trends with industry-standard techniques and build a solid foundation would prove beneficial to my future technology career. My role in this group is to input ideas, double-check on completed work and collaborate with my fellow team members such that we can grow in a mutually supportive environment.
-=======
-2. Individual goal(s) for the project and your roles:
-
-Adrianna Mitalas: My goal for this project is to understand and analyze trends in the United States, find correlations between them, and apply them to my personal life and those around me. My role in the group is to organize our documents and make sure we are on track with progress.  
-
-Betty Kao: My goal for this project is to understand the reasons for the increase in the suicide rate and I hope I can find out the solution to solve the issue. I believe I am a helper in our group. I can help my groupmate do whatever they need. 
-
-Bobin Hu: I hope this project will build my skills in analyzing large data sets and presenting the information in an effective way. I also want to find out how suicide is linked to various social factors. My role will be collecting information from the Internet.  
-
-William Yu: I wish to better understand the impact mental health has on individuals my age. The opportunity to work on such a dataset, analyse trends with industry-standard techniques and build a solid foundation would prove beneficial to my future technology career. My role in this group is to input ideas, double-check on completed work and collaborate with my fellow team members such that we can grow in a mutually supportive environment.  
->>>>>>> 2bb482bba1dc8dea292d09052de6f9fad22043cf
 
 3. We are communicating weekly on messenger and in section
 
 4. We will give feedback and will address challenges in person by discussing in a group what is best for the team.
 
 ### 6.0 Questions for Teaching Team
-<<<<<<< HEAD
-
 * How heavy will the workload for each part of the assignment be each week?
 * Will there be a clear way to divide up each part of an assignment?
 * How do we track changes in the repository, especially when there are multiple commits and pushes at the same time?
 * What's the overall weighting of this assignment?
-=======
-How heavy will the workload for each part of the assignment be each week?  
-Will there be a clear way to divide up each part of an assignment?  
->>>>>>> 2bb482bba1dc8dea292d09052de6f9fad22043cf
 
 ### 7.0 References
 Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.  
