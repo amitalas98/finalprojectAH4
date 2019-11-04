@@ -2,9 +2,9 @@
 ## Suicide Rates in the United States ##
 ### Project: finalprojectAH4 ###
 #### Adrianna Mitalas, Betty Kao, Bobin Hu, and William Yu
-Info-201: Technical Foundations of Informatics
-The Information School
-University of Washington
+Info-201: Technical Foundations of Informatics  
+The Information School  
+University of Washington  
 Autumn 2019
 
 ### 1.0 Introduction
