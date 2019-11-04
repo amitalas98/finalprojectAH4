@@ -23,6 +23,7 @@ Autumn 2019
 
 ### 4.0 Information Visualizations
 ![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)
+![Suicide Rates Rising](visualization-Images/suicide-rising-rates.png)
 
 ### 5.0 Team Coordination
 1. Meeting Times:
