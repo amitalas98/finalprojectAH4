@@ -1,0 +1,970 @@
+Year,Cause.Name,State,Deaths
+2017,Suicide,Alabama,836
+2017,Suicide,Alaska,200
+2017,Suicide,Arizona,1327
+2017,Suicide,Arkansas,631
+2017,Suicide,California,4312
+2017,Suicide,Colorado,1181
+2017,Suicide,Connecticut,405
+2017,Suicide,Delaware,112
+2017,Suicide,District of Columbia,47
+2017,Suicide,Florida,3227
+2017,Suicide,Georgia,1451
+2017,Suicide,Hawaii,227
+2017,Suicide,Idaho,392
+2017,Suicide,Illinois,1474
+2017,Suicide,Indiana,1092
+2017,Suicide,Iowa,479
+2017,Suicide,Kansas,553
+2017,Suicide,Kentucky,770
+2017,Suicide,Louisiana,720
+2017,Suicide,Maine,274
+2017,Suicide,Maryland,630
+2017,Suicide,Massachusetts,682
+2017,Suicide,Michigan,1457
+2017,Suicide,Minnesota,783
+2017,Suicide,Mississippi,445
+2017,Suicide,Missouri,1151
+2017,Suicide,Montana,311
+2017,Suicide,Nebraska,275
+2017,Suicide,Nevada,627
+2017,Suicide,New Hampshire,265
+2017,Suicide,New Jersey,795
+2017,Suicide,New Mexico,491
+2017,Suicide,New York,1696
+2017,Suicide,North Carolina,1521
+2017,Suicide,North Dakota,154
+2017,Suicide,Ohio,1740
+2017,Suicide,Oklahoma,756
+2017,Suicide,Oregon,825
+2017,Suicide,Pennsylvania,2030
+2017,Suicide,Rhode Island,129
+2017,Suicide,South Carolina,838
+2017,Suicide,South Dakota,191
+2017,Suicide,Tennessee,1166
+2017,Suicide,Texas,3778
+2017,Suicide,Utah,663
+2017,Suicide,Vermont,112
+2017,Suicide,Virginia,1179
+2017,Suicide,Washington,1297
+2017,Suicide,West Virginia,393
+2017,Suicide,Wisconsin,926
+2017,Suicide,Wyoming,157
+2016,Suicide,Alabama,788
+2016,Suicide,Alaska,193
+2016,Suicide,Arizona,1271
+2016,Suicide,Arkansas,555
+2016,Suicide,California,4294
+2016,Suicide,Colorado,1168
+2016,Suicide,Connecticut,397
+2016,Suicide,Delaware,119
+2016,Suicide,District of Columbia,40
+2016,Suicide,Florida,3143
+2016,Suicide,Georgia,1409
+2016,Suicide,Hawaii,174
+2016,Suicide,Idaho,351
+2016,Suicide,Illinois,1415
+2016,Suicide,Indiana,1034
+2016,Suicide,Iowa,451
+2016,Suicide,Kansas,514
+2016,Suicide,Kentucky,756
+2016,Suicide,Louisiana,677
+2016,Suicide,Maine,226
+2016,Suicide,Maryland,586
+2016,Suicide,Massachusetts,631
+2016,Suicide,Michigan,1364
+2016,Suicide,Minnesota,745
+2016,Suicide,Mississippi,383
+2016,Suicide,Missouri,1133
+2016,Suicide,Montana,267
+2016,Suicide,Nebraska,246
+2016,Suicide,Nevada,650
+2016,Suicide,New Hampshire,244
+2016,Suicide,New Jersey,687
+2016,Suicide,New Mexico,471
+2016,Suicide,New York,1679
+2016,Suicide,North Carolina,1373
+2016,Suicide,North Dakota,140
+2016,Suicide,Ohio,1707
+2016,Suicide,Oklahoma,822
+2016,Suicide,Oregon,772
+2016,Suicide,Pennsylvania,1970
+2016,Suicide,Rhode Island,126
+2016,Suicide,South Carolina,815
+2016,Suicide,South Dakota,163
+2016,Suicide,Tennessee,1111
+2016,Suicide,Texas,3488
+2016,Suicide,Utah,620
+2016,Suicide,Vermont,118
+2016,Suicide,Virginia,1166
+2016,Suicide,Washington,1141
+2016,Suicide,West Virginia,362
+2016,Suicide,Wisconsin,866
+2016,Suicide,Wyoming,144
+2015,Suicide,Alabama,750
+2015,Suicide,Alaska,201
+2015,Suicide,Arizona,1276
+2015,Suicide,Arkansas,577
+2015,Suicide,California,4167
+2015,Suicide,Colorado,1093
+2015,Suicide,Connecticut,384
+2015,Suicide,Delaware,122
+2015,Suicide,District of Columbia,34
+2015,Suicide,Florida,3205
+2015,Suicide,Georgia,1317
+2015,Suicide,Hawaii,201
+2015,Suicide,Idaho,359
+2015,Suicide,Illinois,1363
+2015,Suicide,Indiana,960
+2015,Suicide,Iowa,433
+2015,Suicide,Kansas,477
+2015,Suicide,Kentucky,776
+2015,Suicide,Louisiana,722
+2015,Suicide,Maine,235
+2015,Suicide,Maryland,553
+2015,Suicide,Massachusetts,642
+2015,Suicide,Michigan,1410
+2015,Suicide,Minnesota,730
+2015,Suicide,Mississippi,431
+2015,Suicide,Missouri,1052
+2015,Suicide,Montana,272
+2015,Suicide,Nebraska,223
+2015,Suicide,Nevada,558
+2015,Suicide,New Hampshire,228
+2015,Suicide,New Jersey,789
+2015,Suicide,New Mexico,500
+2015,Suicide,New York,1652
+2015,Suicide,North Carolina,1406
+2015,Suicide,North Dakota,124
+2015,Suicide,Ohio,1650
+2015,Suicide,Oklahoma,790
+2015,Suicide,Oregon,762
+2015,Suicide,Pennsylvania,1894
+2015,Suicide,Rhode Island,127
+2015,Suicide,South Carolina,742
+2015,Suicide,South Dakota,173
+2015,Suicide,Tennessee,1068
+2015,Suicide,Texas,3403
+2015,Suicide,Utah,630
+2015,Suicide,Vermont,103
+2015,Suicide,Virginia,1118
+2015,Suicide,Washington,1137
+2015,Suicide,West Virginia,340
+2015,Suicide,Wisconsin,877
+2015,Suicide,Wyoming,157
+2014,Suicide,Alabama,715
+2014,Suicide,Alaska,167
+2014,Suicide,Arizona,1244
+2014,Suicide,Arkansas,515
+2014,Suicide,California,4214
+2014,Suicide,Colorado,1083
+2014,Suicide,Connecticut,379
+2014,Suicide,Delaware,126
+2014,Suicide,District of Columbia,52
+2014,Suicide,Florida,3035
+2014,Suicide,Georgia,1295
+2014,Suicide,Hawaii,204
+2014,Suicide,Idaho,320
+2014,Suicide,Illinois,1398
+2014,Suicide,Indiana,948
+2014,Suicide,Iowa,407
+2014,Suicide,Kansas,455
+2014,Suicide,Kentucky,728
+2014,Suicide,Louisiana,679
+2014,Suicide,Maine,220
+2014,Suicide,Maryland,606
+2014,Suicide,Massachusetts,596
+2014,Suicide,Michigan,1354
+2014,Suicide,Minnesota,686
+2014,Suicide,Mississippi,380
+2014,Suicide,Missouri,1017
+2014,Suicide,Montana,251
+2014,Suicide,Nebraska,251
+2014,Suicide,Nevada,573
+2014,Suicide,New Hampshire,247
+2014,Suicide,New Jersey,786
+2014,Suicide,New Mexico,449
+2014,Suicide,New York,1700
+2014,Suicide,North Carolina,1352
+2014,Suicide,North Dakota,137
+2014,Suicide,Ohio,1491
+2014,Suicide,Oklahoma,736
+2014,Suicide,Oregon,782
+2014,Suicide,Pennsylvania,1817
+2014,Suicide,Rhode Island,113
+2014,Suicide,South Carolina,753
+2014,Suicide,South Dakota,141
+2014,Suicide,Tennessee,997
+2014,Suicide,Texas,3254
+2014,Suicide,Utah,559
+2014,Suicide,Vermont,124
+2014,Suicide,Virginia,1123
+2014,Suicide,Washington,1119
+2014,Suicide,West Virginia,359
+2014,Suicide,Wisconsin,769
+2014,Suicide,Wyoming,120
+2013,Suicide,Alabama,721
+2013,Suicide,Alaska,171
+2013,Suicide,Arizona,1163
+2013,Suicide,Arkansas,516
+2013,Suicide,California,4025
+2013,Suicide,Colorado,1007
+2013,Suicide,Connecticut,330
+2013,Suicide,Delaware,122
+2013,Suicide,District of Columbia,38
+2013,Suicide,Florida,2928
+2013,Suicide,Georgia,1212
+2013,Suicide,Hawaii,171
+2013,Suicide,Idaho,308
+2013,Suicide,Illinois,1321
+2013,Suicide,Indiana,944
+2013,Suicide,Iowa,447
+2013,Suicide,Kansas,425
+2013,Suicide,Kentucky,701
+2013,Suicide,Louisiana,583
+2013,Suicide,Maine,245
+2013,Suicide,Maryland,569
+2013,Suicide,Massachusetts,572
+2013,Suicide,Michigan,1295
+2013,Suicide,Minnesota,678
+2013,Suicide,Mississippi,388
+2013,Suicide,Missouri,960
+2013,Suicide,Montana,243
+2013,Suicide,Nebraska,220
+2013,Suicide,Nevada,541
+2013,Suicide,New Hampshire,185
+2013,Suicide,New Jersey,757
+2013,Suicide,New Mexico,431
+2013,Suicide,New York,1687
+2013,Suicide,North Carolina,1284
+2013,Suicide,North Dakota,128
+2013,Suicide,Ohio,1526
+2013,Suicide,Oklahoma,665
+2013,Suicide,Oregon,698
+2013,Suicide,Pennsylvania,1788
+2013,Suicide,Rhode Island,132
+2013,Suicide,South Carolina,696
+2013,Suicide,South Dakota,147
+2013,Suicide,Tennessee,1030
+2013,Suicide,Texas,3059
+2013,Suicide,Utah,579
+2013,Suicide,Vermont,112
+2013,Suicide,Virginia,1072
+2013,Suicide,Washington,1027
+2013,Suicide,West Virginia,323
+2013,Suicide,Wisconsin,850
+2013,Suicide,Wyoming,129
+2012,Suicide,Alabama,724
+2012,Suicide,Alaska,168
+2012,Suicide,Arizona,1156
+2012,Suicide,Arkansas,485
+2012,Suicide,California,3893
+2012,Suicide,Colorado,1052
+2012,Suicide,Connecticut,368
+2012,Suicide,Delaware,125
+2012,Suicide,District of Columbia,37
+2012,Suicide,Florida,3002
+2012,Suicide,Georgia,1168
+2012,Suicide,Hawaii,190
+2012,Suicide,Idaho,297
+2012,Suicide,Illinois,1292
+2012,Suicide,Indiana,940
+2012,Suicide,Iowa,383
+2012,Suicide,Kansas,502
+2012,Suicide,Kentucky,724
+2012,Suicide,Louisiana,567
+2012,Suicide,Maine,209
+2012,Suicide,Maryland,583
+2012,Suicide,Massachusetts,604
+2012,Suicide,Michigan,1261
+2012,Suicide,Minnesota,656
+2012,Suicide,Mississippi,410
+2012,Suicide,Missouri,914
+2012,Suicide,Montana,233
+2012,Suicide,Nebraska,232
+2012,Suicide,Nevada,524
+2012,Suicide,New Hampshire,202
+2012,Suicide,New Jersey,683
+2012,Suicide,New Mexico,442
+2012,Suicide,New York,1708
+2012,Suicide,North Carolina,1286
+2012,Suicide,North Dakota,105
+2012,Suicide,Ohio,1542
+2012,Suicide,Oklahoma,670
+2012,Suicide,Oregon,724
+2012,Suicide,Pennsylvania,1647
+2012,Suicide,Rhode Island,105
+2012,Suicide,South Carolina,673
+2012,Suicide,South Dakota,141
+2012,Suicide,Tennessee,978
+2012,Suicide,Texas,3037
+2012,Suicide,Utah,550
+2012,Suicide,Vermont,87
+2012,Suicide,Virginia,1063
+2012,Suicide,Washington,1038
+2012,Suicide,West Virginia,326
+2012,Suicide,Wisconsin,723
+2012,Suicide,Wyoming,171
+2011,Suicide,Alabama,654
+2011,Suicide,Alaska,143
+2011,Suicide,Arizona,1160
+2011,Suicide,Arkansas,462
+2011,Suicide,California,3996
+2011,Suicide,Colorado,913
+2011,Suicide,Connecticut,370
+2011,Suicide,Delaware,105
+2011,Suicide,District of Columbia,37
+2011,Suicide,Florida,2880
+2011,Suicide,Georgia,1157
+2011,Suicide,Hawaii,181
+2011,Suicide,Idaho,281
+2011,Suicide,Illinois,1226
+2011,Suicide,Indiana,881
+2011,Suicide,Iowa,422
+2011,Suicide,Kansas,394
+2011,Suicide,Kentucky,675
+2011,Suicide,Louisiana,573
+2011,Suicide,Maine,235
+2011,Suicide,Maryland,558
+2011,Suicide,Massachusetts,585
+2011,Suicide,Michigan,1221
+2011,Suicide,Minnesota,683
+2011,Suicide,Mississippi,389
+2011,Suicide,Missouri,933
+2011,Suicide,Montana,232
+2011,Suicide,Nebraska,193
+2011,Suicide,Nevada,516
+2011,Suicide,New Hampshire,198
+2011,Suicide,New Jersey,689
+2011,Suicide,New Mexico,420
+2011,Suicide,New York,1658
+2011,Suicide,North Carolina,1213
+2011,Suicide,North Dakota,106
+2011,Suicide,Ohio,1465
+2011,Suicide,Oklahoma,693
+2011,Suicide,Oregon,656
+2011,Suicide,Pennsylvania,1747
+2011,Suicide,Rhode Island,101
+2011,Suicide,South Carolina,658
+2011,Suicide,South Dakota,128
+2011,Suicide,Tennessee,955
+2011,Suicide,Texas,2896
+2011,Suicide,Utah,502
+2011,Suicide,Vermont,120
+2011,Suicide,Virginia,1054
+2011,Suicide,Washington,1021
+2011,Suicide,West Virginia,306
+2011,Suicide,Wisconsin,745
+2011,Suicide,Wyoming,132
+2010,Suicide,Alabama,679
+2010,Suicide,Alaska,164
+2010,Suicide,Arizona,1093
+2010,Suicide,Arkansas,447
+2010,Suicide,California,3913
+2010,Suicide,Colorado,865
+2010,Suicide,Connecticut,353
+2010,Suicide,Delaware,106
+2010,Suicide,District of Columbia,41
+2010,Suicide,Florida,2789
+2010,Suicide,Georgia,1133
+2010,Suicide,Hawaii,207
+2010,Suicide,Idaho,290
+2010,Suicide,Illinois,1178
+2010,Suicide,Indiana,864
+2010,Suicide,Iowa,372
+2010,Suicide,Kansas,401
+2010,Suicide,Kentucky,631
+2010,Suicide,Louisiana,557
+2010,Suicide,Maine,186
+2010,Suicide,Maryland,502
+2010,Suicide,Massachusetts,598
+2010,Suicide,Michigan,1263
+2010,Suicide,Minnesota,606
+2010,Suicide,Mississippi,388
+2010,Suicide,Missouri,856
+2010,Suicide,Montana,227
+2010,Suicide,Nebraska,193
+2010,Suicide,Nevada,547
+2010,Suicide,New Hampshire,196
+2010,Suicide,New Jersey,719
+2010,Suicide,New Mexico,413
+2010,Suicide,New York,1547
+2010,Suicide,North Carolina,1174
+2010,Suicide,North Dakota,106
+2010,Suicide,Ohio,1439
+2010,Suicide,Oklahoma,618
+2010,Suicide,Oregon,685
+2010,Suicide,Pennsylvania,1576
+2010,Suicide,Rhode Island,129
+2010,Suicide,South Carolina,637
+2010,Suicide,South Dakota,140
+2010,Suicide,Tennessee,943
+2010,Suicide,Texas,2891
+2010,Suicide,Utah,473
+2010,Suicide,Vermont,106
+2010,Suicide,Virginia,963
+2010,Suicide,Washington,957
+2010,Suicide,West Virginia,279
+2010,Suicide,Wisconsin,793
+2010,Suicide,Wyoming,131
+2009,Suicide,Alabama,673
+2009,Suicide,Alaska,143
+2009,Suicide,Arizona,1060
+2009,Suicide,Arkansas,422
+2009,Suicide,California,3823
+2009,Suicide,Colorado,941
+2009,Suicide,Connecticut,316
+2009,Suicide,Delaware,107
+2009,Suicide,District of Columbia,29
+2009,Suicide,Florida,2858
+2009,Suicide,Georgia,1134
+2009,Suicide,Hawaii,175
+2009,Suicide,Idaho,304
+2009,Suicide,Illinois,1177
+2009,Suicide,Indiana,828
+2009,Suicide,Iowa,361
+2009,Suicide,Kansas,382
+2009,Suicide,Kentucky,592
+2009,Suicide,Louisiana,490
+2009,Suicide,Maine,197
+2009,Suicide,Maryland,551
+2009,Suicide,Massachusetts,530
+2009,Suicide,Michigan,1169
+2009,Suicide,Minnesota,584
+2009,Suicide,Mississippi,381
+2009,Suicide,Missouri,860
+2009,Suicide,Montana,219
+2009,Suicide,Nebraska,170
+2009,Suicide,Nevada,505
+2009,Suicide,New Hampshire,166
+2009,Suicide,New Jersey,557
+2009,Suicide,New Mexico,376
+2009,Suicide,New York,1417
+2009,Suicide,North Carolina,1174
+2009,Suicide,North Dakota,90
+2009,Suicide,Ohio,1176
+2009,Suicide,Oklahoma,567
+2009,Suicide,Oregon,644
+2009,Suicide,Pennsylvania,1631
+2009,Suicide,Rhode Island,118
+2009,Suicide,South Carolina,619
+2009,Suicide,South Dakota,129
+2009,Suicide,Tennessee,947
+2009,Suicide,Texas,2809
+2009,Suicide,Utah,449
+2009,Suicide,Vermont,87
+2009,Suicide,Virginia,963
+2009,Suicide,Washington,921
+2009,Suicide,West Virginia,253
+2009,Suicide,Wisconsin,724
+2009,Suicide,Wyoming,111
+2008,Suicide,Alabama,604
+2008,Suicide,Alaska,169
+2008,Suicide,Arizona,972
+2008,Suicide,Arkansas,447
+2008,Suicide,California,3775
+2008,Suicide,Colorado,803
+2008,Suicide,Connecticut,315
+2008,Suicide,Delaware,109
+2008,Suicide,District of Columbia,43
+2008,Suicide,Florida,2740
+2008,Suicide,Georgia,981
+2008,Suicide,Hawaii,133
+2008,Suicide,Idaho,252
+2008,Suicide,Illinois,1198
+2008,Suicide,Indiana,809
+2008,Suicide,Iowa,380
+2008,Suicide,Kansas,337
+2008,Suicide,Kentucky,612
+2008,Suicide,Louisiana,532
+2008,Suicide,Maine,181
+2008,Suicide,Maryland,507
+2008,Suicide,Massachusetts,509
+2008,Suicide,Michigan,1180
+2008,Suicide,Minnesota,596
+2008,Suicide,Mississippi,409
+2008,Suicide,Missouri,779
+2008,Suicide,Montana,203
+2008,Suicide,Nebraska,191
+2008,Suicide,Nevada,528
+2008,Suicide,New Hampshire,179
+2008,Suicide,New Jersey,615
+2008,Suicide,New Mexico,419
+2008,Suicide,New York,1409
+2008,Suicide,North Carolina,1162
+2008,Suicide,North Dakota,86
+2008,Suicide,Ohio,1412
+2008,Suicide,Oklahoma,575
+2008,Suicide,Oregon,572
+2008,Suicide,Pennsylvania,1539
+2008,Suicide,Rhode Island,110
+2008,Suicide,South Carolina,565
+2008,Suicide,South Dakota,124
+2008,Suicide,Tennessee,973
+2008,Suicide,Texas,2552
+2008,Suicide,Utah,390
+2008,Suicide,Vermont,94
+2008,Suicide,Virginia,948
+2008,Suicide,Washington,889
+2008,Suicide,West Virginia,261
+2008,Suicide,Wisconsin,743
+2008,Suicide,Wyoming,124
+2007,Suicide,Alabama,592
+2007,Suicide,Alaska,149
+2007,Suicide,Arizona,1016
+2007,Suicide,Arkansas,402
+2007,Suicide,California,3602
+2007,Suicide,Colorado,811
+2007,Suicide,Connecticut,271
+2007,Suicide,Delaware,95
+2007,Suicide,District of Columbia,36
+2007,Suicide,Florida,2587
+2007,Suicide,Georgia,997
+2007,Suicide,Hawaii,133
+2007,Suicide,Idaho,223
+2007,Suicide,Illinois,1108
+2007,Suicide,Indiana,790
+2007,Suicide,Iowa,322
+2007,Suicide,Kansas,382
+2007,Suicide,Kentucky,649
+2007,Suicide,Louisiana,522
+2007,Suicide,Maine,191
+2007,Suicide,Maryland,518
+2007,Suicide,Massachusetts,516
+2007,Suicide,Michigan,1131
+2007,Suicide,Minnesota,572
+2007,Suicide,Mississippi,396
+2007,Suicide,Missouri,808
+2007,Suicide,Montana,196
+2007,Suicide,Nebraska,181
+2007,Suicide,Nevada,471
+2007,Suicide,New Hampshire,158
+2007,Suicide,New Jersey,596
+2007,Suicide,New Mexico,401
+2007,Suicide,New York,1396
+2007,Suicide,North Carolina,1077
+2007,Suicide,North Dakota,95
+2007,Suicide,Ohio,1295
+2007,Suicide,Oklahoma,531
+2007,Suicide,Oregon,594
+2007,Suicide,Pennsylvania,1441
+2007,Suicide,Rhode Island,96
+2007,Suicide,South Carolina,530
+2007,Suicide,South Dakota,102
+2007,Suicide,Tennessee,844
+2007,Suicide,Texas,2433
+2007,Suicide,Utah,378
+2007,Suicide,Vermont,89
+2007,Suicide,Virginia,880
+2007,Suicide,Washington,865
+2007,Suicide,West Virginia,300
+2007,Suicide,Wisconsin,729
+2007,Suicide,Wyoming,101
+2006,Suicide,Alabama,580
+2006,Suicide,Alaska,135
+2006,Suicide,Arizona,979
+2006,Suicide,Arkansas,376
+2006,Suicide,California,3334
+2006,Suicide,Colorado,730
+2006,Suicide,Connecticut,292
+2006,Suicide,Delaware,91
+2006,Suicide,District of Columbia,30
+2006,Suicide,Florida,2440
+2006,Suicide,Georgia,923
+2006,Suicide,Hawaii,120
+2006,Suicide,Idaho,222
+2006,Suicide,Illinois,1010
+2006,Suicide,Indiana,824
+2006,Suicide,Iowa,334
+2006,Suicide,Kansas,379
+2006,Suicide,Kentucky,622
+2006,Suicide,Louisiana,492
+2006,Suicide,Maine,158
+2006,Suicide,Maryland,495
+2006,Suicide,Massachusetts,450
+2006,Suicide,Michigan,1139
+2006,Suicide,Minnesota,554
+2006,Suicide,Mississippi,325
+2006,Suicide,Missouri,799
+2006,Suicide,Montana,189
+2006,Suicide,Nebraska,202
+2006,Suicide,Nevada,486
+2006,Suicide,New Hampshire,151
+2006,Suicide,New Jersey,585
+2006,Suicide,New Mexico,352
+2006,Suicide,New York,1326
+2006,Suicide,North Carolina,1106
+2006,Suicide,North Dakota,90
+2006,Suicide,Ohio,1325
+2006,Suicide,Oklahoma,537
+2006,Suicide,Oregon,579
+2006,Suicide,Pennsylvania,1396
+2006,Suicide,Rhode Island,90
+2006,Suicide,South Carolina,524
+2006,Suicide,South Dakota,125
+2006,Suicide,Tennessee,874
+2006,Suicide,Texas,2347
+2006,Suicide,Utah,362
+2006,Suicide,Vermont,81
+2006,Suicide,Virginia,876
+2006,Suicide,Washington,809
+2006,Suicide,West Virginia,269
+2006,Suicide,Wisconsin,670
+2006,Suicide,Wyoming,116
+2005,Suicide,Alabama,535
+2005,Suicide,Alaska,131
+2005,Suicide,Arizona,945
+2005,Suicide,Arkansas,400
+2005,Suicide,California,3206
+2005,Suicide,Colorado,800
+2005,Suicide,Connecticut,295
+2005,Suicide,Delaware,83
+2005,Suicide,District of Columbia,33
+2005,Suicide,Florida,2347
+2005,Suicide,Georgia,924
+2005,Suicide,Hawaii,107
+2005,Suicide,Idaho,228
+2005,Suicide,Illinois,1086
+2005,Suicide,Indiana,745
+2005,Suicide,Iowa,333
+2005,Suicide,Kansas,362
+2005,Suicide,Kentucky,566
+2005,Suicide,Louisiana,505
+2005,Suicide,Maine,175
+2005,Suicide,Maryland,472
+2005,Suicide,Massachusetts,480
+2005,Suicide,Michigan,1108
+2005,Suicide,Minnesota,547
+2005,Suicide,Mississippi,363
+2005,Suicide,Missouri,727
+2005,Suicide,Montana,206
+2005,Suicide,Nebraska,187
+2005,Suicide,Nevada,480
+2005,Suicide,New Hampshire,162
+2005,Suicide,New Jersey,536
+2005,Suicide,New Mexico,342
+2005,Suicide,New York,1189
+2005,Suicide,North Carolina,1009
+2005,Suicide,North Dakota,92
+2005,Suicide,Ohio,1341
+2005,Suicide,Oklahoma,522
+2005,Suicide,Oregon,560
+2005,Suicide,Pennsylvania,1430
+2005,Suicide,Rhode Island,71
+2005,Suicide,South Carolina,510
+2005,Suicide,South Dakota,121
+2005,Suicide,Tennessee,856
+2005,Suicide,Texas,2418
+2005,Suicide,Utah,348
+2005,Suicide,Vermont,78
+2005,Suicide,Virginia,866
+2005,Suicide,Washington,822
+2005,Suicide,West Virginia,255
+2005,Suicide,Wisconsin,643
+2005,Suicide,Wyoming,90
+2004,Suicide,Alabama,541
+2004,Suicide,Alaska,155
+2004,Suicide,Arizona,880
+2004,Suicide,Arkansas,361
+2004,Suicide,California,3368
+2004,Suicide,Colorado,797
+2004,Suicide,Connecticut,294
+2004,Suicide,Delaware,93
+2004,Suicide,District of Columbia,33
+2004,Suicide,Florida,2389
+2004,Suicide,Georgia,973
+2004,Suicide,Hawaii,116
+2004,Suicide,Idaho,236
+2004,Suicide,Illinois,1028
+2004,Suicide,Indiana,704
+2004,Suicide,Iowa,343
+2004,Suicide,Kansas,370
+2004,Suicide,Kentucky,560
+2004,Suicide,Louisiana,537
+2004,Suicide,Maine,171
+2004,Suicide,Maryland,500
+2004,Suicide,Massachusetts,425
+2004,Suicide,Michigan,1098
+2004,Suicide,Minnesota,524
+2004,Suicide,Mississippi,350
+2004,Suicide,Missouri,715
+2004,Suicide,Montana,175
+2004,Suicide,Nebraska,166
+2004,Suicide,Nevada,440
+2004,Suicide,New Hampshire,133
+2004,Suicide,New Jersey,597
+2004,Suicide,New Mexico,356
+2004,Suicide,New York,1187
+2004,Suicide,North Carolina,1027
+2004,Suicide,North Dakota,73
+2004,Suicide,Ohio,1319
+2004,Suicide,Oklahoma,506
+2004,Suicide,Oregon,555
+2004,Suicide,Pennsylvania,1410
+2004,Suicide,Rhode Island,85
+2004,Suicide,South Carolina,482
+2004,Suicide,South Dakota,112
+2004,Suicide,Tennessee,792
+2004,Suicide,Texas,2300
+2004,Suicide,Utah,377
+2004,Suicide,Vermont,93
+2004,Suicide,Virginia,828
+2004,Suicide,Washington,830
+2004,Suicide,West Virginia,285
+2004,Suicide,Wisconsin,662
+2004,Suicide,Wyoming,88
+2003,Suicide,Alabama,521
+2003,Suicide,Alaska,124
+2003,Suicide,Arizona,840
+2003,Suicide,Arkansas,374
+2003,Suicide,California,3397
+2003,Suicide,Colorado,728
+2003,Suicide,Connecticut,272
+2003,Suicide,Delaware,94
+2003,Suicide,District of Columbia,36
+2003,Suicide,Florida,2297
+2003,Suicide,Georgia,972
+2003,Suicide,Hawaii,131
+2003,Suicide,Idaho,217
+2003,Suicide,Illinois,1011
+2003,Suicide,Indiana,736
+2003,Suicide,Iowa,352
+2003,Suicide,Kansas,347
+2003,Suicide,Kentucky,567
+2003,Suicide,Louisiana,461
+2003,Suicide,Maine,137
+2003,Suicide,Maryland,491
+2003,Suicide,Massachusetts,433
+2003,Suicide,Michigan,1029
+2003,Suicide,Minnesota,497
+2003,Suicide,Mississippi,336
+2003,Suicide,Missouri,679
+2003,Suicide,Montana,180
+2003,Suicide,Nebraska,176
+2003,Suicide,Nevada,434
+2003,Suicide,New Hampshire,158
+2003,Suicide,New Jersey,588
+2003,Suicide,New Mexico,343
+2003,Suicide,New York,1169
+2003,Suicide,North Carolina,955
+2003,Suicide,North Dakota,81
+2003,Suicide,Ohio,1074
+2003,Suicide,Oklahoma,476
+2003,Suicide,Oregon,592
+2003,Suicide,Pennsylvania,1340
+2003,Suicide,Rhode Island,84
+2003,Suicide,South Carolina,476
+2003,Suicide,South Dakota,102
+2003,Suicide,Tennessee,762
+2003,Suicide,Texas,2363
+2003,Suicide,Utah,336
+2003,Suicide,Vermont,83
+2003,Suicide,Virginia,808
+2003,Suicide,Washington,803
+2003,Suicide,West Virginia,266
+2003,Suicide,Wisconsin,647
+2003,Suicide,Wyoming,109
+2002,Suicide,Alabama,514
+2002,Suicide,Alaska,132
+2002,Suicide,Arizona,886
+2002,Suicide,Arkansas,377
+2002,Suicide,California,3228
+2002,Suicide,Colorado,727
+2002,Suicide,Connecticut,260
+2002,Suicide,Delaware,74
+2002,Suicide,District of Columbia,31
+2002,Suicide,Florida,2338
+2002,Suicide,Georgia,909
+2002,Suicide,Hawaii,120
+2002,Suicide,Idaho,202
+2002,Suicide,Illinois,1145
+2002,Suicide,Indiana,743
+2002,Suicide,Iowa,314
+2002,Suicide,Kansas,345
+2002,Suicide,Kentucky,540
+2002,Suicide,Louisiana,499
+2002,Suicide,Maine,166
+2002,Suicide,Maryland,477
+2002,Suicide,Massachusetts,436
+2002,Suicide,Michigan,1106
+2002,Suicide,Minnesota,497
+2002,Suicide,Mississippi,343
+2002,Suicide,Missouri,693
+2002,Suicide,Montana,184
+2002,Suicide,Nebraska,201
+2002,Suicide,Nevada,423
+2002,Suicide,New Hampshire,132
+2002,Suicide,New Jersey,553
+2002,Suicide,New Mexico,349
+2002,Suicide,New York,1228
+2002,Suicide,North Carolina,986
+2002,Suicide,North Dakota,91
+2002,Suicide,Ohio,1287
+2002,Suicide,Oklahoma,501
+2002,Suicide,Oregon,518
+2002,Suicide,Pennsylvania,1341
+2002,Suicide,Rhode Island,86
+2002,Suicide,South Carolina,440
+2002,Suicide,South Dakota,94
+2002,Suicide,Tennessee,778
+2002,Suicide,Texas,2311
+2002,Suicide,Utah,340
+2002,Suicide,Vermont,92
+2002,Suicide,Virginia,799
+2002,Suicide,Washington,811
+2002,Suicide,West Virginia,276
+2002,Suicide,Wisconsin,627
+2002,Suicide,Wyoming,105
+2001,Suicide,Alabama,512
+2001,Suicide,Alaska,102
+2001,Suicide,Arizona,767
+2001,Suicide,Arkansas,382
+2001,Suicide,California,2831
+2001,Suicide,Colorado,722
+2001,Suicide,Connecticut,283
+2001,Suicide,Delaware,108
+2001,Suicide,District of Columbia,40
+2001,Suicide,Florida,2314
+2001,Suicide,Georgia,935
+2001,Suicide,Hawaii,136
+2001,Suicide,Idaho,210
+2001,Suicide,Illinois,1139
+2001,Suicide,Indiana,715
+2001,Suicide,Iowa,304
+2001,Suicide,Kansas,293
+2001,Suicide,Kentucky,495
+2001,Suicide,Louisiana,493
+2001,Suicide,Maine,161
+2001,Suicide,Maryland,454
+2001,Suicide,Massachusetts,426
+2001,Suicide,Michigan,1051
+2001,Suicide,Minnesota,480
+2001,Suicide,Mississippi,328
+2001,Suicide,Missouri,725
+2001,Suicide,Montana,175
+2001,Suicide,Nebraska,187
+2001,Suicide,Nevada,387
+2001,Suicide,New Hampshire,167
+2001,Suicide,New Jersey,588
+2001,Suicide,New Mexico,362
+2001,Suicide,New York,1253
+2001,Suicide,North Carolina,997
+2001,Suicide,North Dakota,79
+2001,Suicide,Ohio,1219
+2001,Suicide,Oklahoma,515
+2001,Suicide,Oregon,505
+2001,Suicide,Pennsylvania,1276
+2001,Suicide,Rhode Island,88
+2001,Suicide,South Carolina,467
+2001,Suicide,South Dakota,105
+2001,Suicide,Tennessee,711
+2001,Suicide,Texas,2225
+2001,Suicide,Utah,321
+2001,Suicide,Vermont,72
+2001,Suicide,Virginia,797
+2001,Suicide,Washington,712
+2001,Suicide,West Virginia,286
+2001,Suicide,Wisconsin,639
+2001,Suicide,Wyoming,83
+2000,Suicide,Alabama,583
+2000,Suicide,Alaska,137
+2000,Suicide,Arizona,784
+2000,Suicide,Arkansas,349
+2000,Suicide,California,2969
+2000,Suicide,Colorado,613
+2000,Suicide,Connecticut,304
+2000,Suicide,Delaware,82
+2000,Suicide,District of Columbia,23
+2000,Suicide,Florida,2086
+2000,Suicide,Georgia,847
+2000,Suicide,Hawaii,137
+2000,Suicide,Idaho,167
+2000,Suicide,Illinois,1003
+2000,Suicide,Indiana,683
+2000,Suicide,Iowa,289
+2000,Suicide,Kansas,325
+2000,Suicide,Kentucky,521
+2000,Suicide,Louisiana,468
+2000,Suicide,Maine,154
+2000,Suicide,Maryland,474
+2000,Suicide,Massachusetts,387
+2000,Suicide,Michigan,974
+2000,Suicide,Minnesota,440
+2000,Suicide,Mississippi,294
+2000,Suicide,Missouri,699
+2000,Suicide,Montana,158
+2000,Suicide,Nebraska,193
+2000,Suicide,Nevada,400
+2000,Suicide,New Hampshire,131
+2000,Suicide,New Jersey,560
+2000,Suicide,New Mexico,327
+2000,Suicide,New York,1132
+2000,Suicide,North Carolina,971
+2000,Suicide,North Dakota,68
+2000,Suicide,Ohio,1088
+2000,Suicide,Oklahoma,497
+2000,Suicide,Oregon,493
+2000,Suicide,Pennsylvania,1356
+2000,Suicide,Rhode Island,75
+2000,Suicide,South Carolina,443
+2000,Suicide,South Dakota,95
+2000,Suicide,Tennessee,730
+2000,Suicide,Texas,2053
+2000,Suicide,Utah,298
+2000,Suicide,Vermont,77
+2000,Suicide,Virginia,768
+2000,Suicide,Washington,727
+2000,Suicide,West Virginia,245
+2000,Suicide,Wisconsin,590
+2000,Suicide,Wyoming,83
+1999,Suicide,Alabama,555
+1999,Suicide,Alaska,96
+1999,Suicide,Arizona,766
+1999,Suicide,Arkansas,336
+1999,Suicide,California,3077
+1999,Suicide,Colorado,574
+1999,Suicide,Connecticut,274
+1999,Suicide,Delaware,86
+1999,Suicide,District of Columbia,30
+1999,Suicide,Florida,2029
+1999,Suicide,Georgia,873
+1999,Suicide,Hawaii,136
+1999,Suicide,Idaho,181
+1999,Suicide,Illinois,1020
+1999,Suicide,Indiana,628
+1999,Suicide,Iowa,305
+1999,Suicide,Kansas,299
+1999,Suicide,Kentucky,470
+1999,Suicide,Louisiana,518
+1999,Suicide,Maine,175
+1999,Suicide,Maryland,435
+1999,Suicide,Massachusetts,431
+1999,Suicide,Michigan,974
+1999,Suicide,Minnesota,437
+1999,Suicide,Mississippi,304
+1999,Suicide,Missouri,700
+1999,Suicide,Montana,162
+1999,Suicide,Nebraska,177
+1999,Suicide,Nevada,404
+1999,Suicide,New Hampshire,137
+1999,Suicide,New Jersey,563
+1999,Suicide,New Mexico,318
+1999,Suicide,New York,1196
+1999,Suicide,North Carolina,884
+1999,Suicide,North Dakota,73
+1999,Suicide,Ohio,1102
+1999,Suicide,Oklahoma,492
+1999,Suicide,Oregon,478
+1999,Suicide,Pennsylvania,1284
+1999,Suicide,Rhode Island,96
+1999,Suicide,South Carolina,418
+1999,Suicide,South Dakota,103
+1999,Suicide,Tennessee,726
+1999,Suicide,Texas,2005
+1999,Suicide,Utah,282
+1999,Suicide,Vermont,63
+1999,Suicide,Virginia,791
+1999,Suicide,Washington,816
+1999,Suicide,West Virginia,229
+1999,Suicide,Wisconsin,593
+1999,Suicide,Wyoming,98
