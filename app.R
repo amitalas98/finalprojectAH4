@@ -13,7 +13,6 @@ page_two <- tabPanel(
   "Background & Research Questions"
 )
 
-
 page_three <- tabPanel(
   "Unemployment",
   titlePanel("Unemployment vs Suicide Rate"),
@@ -49,6 +48,7 @@ page_five <- tabPanel(
   "Suicide Rates Across USA"
 )
 
+
 page_six <- tabPanel(
   "Conclusion"
 )
@@ -65,9 +65,11 @@ my_ui <- navbarPage(
   "AH4", 
   page_one,     
   page_two, 
-  page_three,
-  page_four,
-  page_five,
+  navbarMenu("Visualizations",
+             page_three,
+             page_four,
+             page_five
+  ),
   page_six,
   page_seven,
   page_eight
