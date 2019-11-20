@@ -1,6 +1,3 @@
-
-
-
 suci_state <-
   read.csv("by-state-suicide/row_suicides_1999_2017.csv", stringsAsFactors = FALSE)
 
