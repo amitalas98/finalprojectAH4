@@ -24,12 +24,22 @@ How do factors like unemployment rates, poverty percentages, and income contribu
 Between 2000 and 2015, what has been the trend of suicide rates for each state? Has it improved or worsened? If so, what sort of interventions and factors played a role?
 
 ### 3.0 Possible Data Sets
-* **Data Set 1:** [US Suicides per State](https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu?fbclid=IwAR0EQq89YTaLq7Icqp-mWrjT7fuokDmkascnVtTxqPVzpKRCMxL0R63IDik()  
-The original data set comes from the National Centre For Health Statistics. In this dataset are the age-adjusted death rates for the 10 leading causes of death in the United States beginning in 1999, with data being collected from all resident death certificates filed in the 50 states and the District of Columbia using demographic and medical characteristics. The attributes inside the data frame include the 'Year' of death, '113 Cause Name' for details behind the death, 'Cause Name' for category of the death , the 'State' where this death occurred, the total number of cause-related 'Deaths' and deaths per 100,000 of the population in 'Age-adjusted Death Rates'. In our cleaned dataset *four_years_state_suicide*, we have the number of suicides for each state in the US for the years 2000, 2005, 2010 and 2015. We have kept the attributes 'Year', ''
+**Data Set 1: Unemployment and Suicide Rates**  
+The combined dataset *unemployment_scatterplot_df.csv* comes from two sources and has been cleaned to represent the unemployment and suicide rate per state in the years 2000, 2005, 2010 and 2015. There are 188 observations and 8 variables, with the variables being year, state, rate_sum, cause.name, deaths, population, unemployment and suicide.rate. These variables are explained in **appendix: Data Dictionary**.
 
-* Data Set 2: [US Census Demographic Data](https://www.kaggle.com/muonneutrino/us-census-demographic-data)
+The strength of *unemployment_scatterplot_df* are
+
+The weakness is that it is missing Georgia, Florida and Alaska.   
+
+The original [US Suicides Per State]((https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu?fbclid=IwAR0EQq89YTaLq7Icqp-mWrjT7fuokDmkascnVtTxqPVzpKRCMxL0R63IDik() dataset comes from the National Centre For Health Statistics. In this dataset are the age-adjusted death rates for the 10 leading causes of death in the United States beginning in 1999, with data being collected from all resident death certificates filed in the 50 states and the District of Columbia using demographic and medical characteristics. The attributes inside the data frame include the 'Year' of death, '113 Cause Name' for details behind the death, 'Cause Name' for category of the death , the 'State' where this death occurred, the total number of cause-related 'Deaths' and deaths per 100,000 of the population in 'Age-adjusted Death Rates'. The *four_years_state_suicide.csv* subset was created by using dplyr to filter and select our areas of interest. Luckily, there were no The code used is in *datacleaning.R* and *make_new_year.R*.
+
+Likewise, the original [Unemployment](https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.kaggle.com%2Fjayrav13%2Funemployment-by-county-us%2Fdata&h=AT1G-X579pr9YkR13u3CswEsmDifbXP4CgbEmX6E3U0FuTu9IhPfrMVaXMmFTlHw4qiaVAeUw-NeQ0XnXXsH_BlA6PFjvp0HAIf8tX3LoXb4ziz5ucGk6wU42IqgCT_THXwqDA) dataset comes from the
+Bureau of Labor Statistics. In this dataset, the year, month, state, county and unemployment rate are specified. The *unemployment_rate_grouped.csv* subset was created using dplyr to filter and select our areas of interest. The unemployment rate per month was averaged out to create an annual unemployment rate. The code used is in *edit_unemployment_table.R*.
+
+* **Data Set 2: Income and Suicide Rates**
 This data set was collected by the US Census Bureau. It examines the total population of the United States and breaks it down into ethnic and gender characteristics. It also examines factors such as income, poverty, and employment. These attributes provide a comprehensive overview of the situation in each county and state. In the county dataset, there are 3221 observations and 37 attributes.
 
+* **Data Set 3: Poverty Rate and Suicide Rates**
 ### 4.0 Information Visualizations
 These visualizations display trends of suicide in the United States.
 ![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)
