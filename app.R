@@ -19,12 +19,12 @@ page_three <- tabPanel(
   br(),br(),br(),br(),
   sidebarLayout(
     sidebarPanel(
-      checkboxGroupInput("years", "years", c("2000", "2005", "2010", "2015"), selected = "2000")
+      radioButtons("years", "years", c("2000", "2005", "2010", "2015"), selected = "2000")
     ),
     mainPanel(
       h3("Primary Content"),
       p("Plots, data tables, etc. would go here"),
-      plotOutput("plot1")
+      plotlyOutput("unemploymentPlot")
     )
   )
 )
@@ -60,10 +60,9 @@ my_ui <- navbarPage(
 my_server <- shinyServer(function(input, output){
   df <- read.csv("unemployment_scatterplot_df.csv", stringsAsFactors = FALSE)
   library(ggplot2)
-  output$plot1 <- renderPlot({
+  output$unemploymentPlot <- renderPlotly({
     df = df %>% filter(Year == input$years)
-    ggplot(df, aes(x = Suicides, y = Unemployment.Rate)) + geom_point(aes(color = factor(Year))) +
-      scale_color_manual(values = c("red", "orange", "green", "blue"))
+    ggplot(df, aes(x = Suicides, y = Unemployment.Rate)) + geom_point(aes(text=State, ))
   })
 })
 
