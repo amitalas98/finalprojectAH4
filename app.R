@@ -103,11 +103,12 @@ my_server <- shinyServer(function(input, output){
   })
   
   df2 <- read.csv("income_scatterplot_df.csv", stringsAsFactors = FALSE)
+  df2$Income <- as.numeric(gsub(",", "", df2$Income))
   output$incomePlot <- renderPlotly({
     df2 = df2 %>% filter(Year == input$years2)
     ggplot(df2, aes(x = Suicide.Rate, y = Income)) + 
       geom_point(aes(text=State))
-
+    
       
   })
   
