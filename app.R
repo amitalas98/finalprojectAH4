@@ -10,7 +10,18 @@ page_two <- tabPanel(
 
 
 page_three <- tabPanel(
-  "unemployment visualization"
+  "unemployment visualization",
+  titlePanel("unemployment visualization"),
+  br(),br(),br(),br(),
+  sidebarLayout(
+    sidebarPanel(
+      checkboxGroupInput("years", "years", c(2000, 2005, 2010, 2015))
+    ),
+    mainPanel(
+      h3("Primary Content"),
+      p("Plots, data tables, etc. would go here")
+    )
+  )
 )
 
 page_four <- tabPanel(
@@ -30,7 +41,7 @@ page_seven <- tabPanel(
 )
 
 my_ui <- navbarPage(
-  "My Application", 
+  "AH4", 
   page_one,     
   page_two, 
   page_three,
