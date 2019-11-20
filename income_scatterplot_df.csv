@@ -1,0 +1,205 @@
+"","State","Year","Income","Cause.Name","Deaths","Suicides"
+"1","Alabama",2015,"44,509","Suicide",750,750
+"2","Alaska",2015,"75,112","Suicide",201,201
+"3","Arizona",2015,"52,248","Suicide",1276,1276
+"4","Arkansas",2015,"42,798","Suicide",577,577
+"5","California",2015,"63,636","Suicide",4167,4167
+"6","Colorado",2015,"66,596","Suicide",1093,1093
+"7","Connecticut",2015,"72,889","Suicide",384,384
+"8","Delaware",2015,"57,756","Suicide",122,122
+"9","D.C.",2015,"70,071",NA,NA,NA
+"10","Florida",2015,"48,825","Suicide",3205,3205
+"11","Georgia",2015,"50,768","Suicide",1317,1317
+"12","Hawaii",2015,"64,514","Suicide",201,201
+"13","Idaho",2015,"51,624","Suicide",359,359
+"14","Illinois",2015,"60,413","Suicide",1363,1363
+"15","Indiana",2015,"51,983","Suicide",960,960
+"16","Iowa",2015,"60,855","Suicide",433,433
+"17","Kansas",2015,"54,865","Suicide",477,477
+"18","Kentucky",2015,"42,387","Suicide",776,776
+"19","Louisiana",2015,"45,922","Suicide",722,722
+"20","Maine",2015,"50,756","Suicide",235,235
+"21","Maryland",2015,"73,594","Suicide",553,553
+"22","Massachusetts",2015,"67,861","Suicide",642,642
+"23","Michigan",2015,"54,203","Suicide",1410,1410
+"24","Minnesota",2015,"68,730","Suicide",730,730
+"25","Mississippi",2015,"40,037","Suicide",431,431
+"26","Missouri",2015,"59,196","Suicide",1052,1052
+"27","Montana",2015,"51,395","Suicide",272,272
+"28","Nebraska",2015,"60,474","Suicide",223,223
+"29","Nevada",2015,"52,008","Suicide",558,558
+"30","New Hampshire",2015,"75,675","Suicide",228,228
+"31","New Jersey",2015,"68,357","Suicide",789,789
+"32","New Mexico",2015,"45,119","Suicide",500,500
+"33","New York",2015,"58,005","Suicide",1652,1652
+"34","North Carolina",2015,"50,797","Suicide",1406,1406
+"35","North Dakota",2015,"57,415","Suicide",124,124
+"36","Ohio",2015,"53,301","Suicide",1650,1650
+"37","Oklahoma",2015,"47,077","Suicide",790,790
+"38","Oregon",2015,"60,834","Suicide",762,762
+"39","Pennsylvania",2015,"60,389","Suicide",1894,1894
+"40","Rhode Island",2015,"55,701","Suicide",127,127
+"41","South Carolina",2015,"46,360","Suicide",742,742
+"42","South Dakota",2015,"55,065","Suicide",173,173
+"43","Tennessee",2015,"47,330","Suicide",1068,1068
+"44","Texas",2015,"56,473","Suicide",3403,3403
+"45","Utah",2015,"66,258","Suicide",630,630
+"46","Vermont",2015,"59,494","Suicide",103,103
+"47","Virginia",2015,"61,486","Suicide",1118,1118
+"48","Washington",2015,"67,243","Suicide",1137,1137
+"49","West Virginia",2015,"42,824","Suicide",340,340
+"50","Wisconsin",2015,"55,425","Suicide",877,877
+"51","Wyoming",2015,"60,925","Suicide",157,157
+"52","Alabama",2010,"40,933","Suicide",679,679
+"53","Alaska",2010,"57,848","Suicide",164,164
+"54","Arizona",2010,"46,896","Suicide",1093,1093
+"55","Arkansas",2010,"38,587","Suicide",447,447
+"56","California",2010,"54,283","Suicide",3913,3913
+"57","Colorado",2010,"60,233","Suicide",865,865
+"58","Connecticut",2010,"65,998","Suicide",353,353
+"59","Delaware",2010,"55,214","Suicide",106,106
+"60","D.C.",2010,"56,928",NA,NA,NA
+"61","Florida",2010,"44,066","Suicide",2789,2789
+"62","Georgia",2010,"44,117","Suicide",1133,1133
+"63","Hawaii",2010,"59,539","Suicide",207,207
+"64","Idaho",2010,"47,050","Suicide",290,290
+"65","Illinois",2010,"50,728","Suicide",1178,1178
+"66","Indiana",2010,"46,139","Suicide",864,864
+"67","Iowa",2010,"49,016","Suicide",372,372
+"68","Kansas",2010,"46,054","Suicide",401,401
+"69","Kentucky",2010,"41,104","Suicide",631,631
+"70","Louisiana",2010,"39,300","Suicide",557,557
+"71","Maine",2010,"47,931","Suicide",186,186
+"72","Maryland",2010,"64,201","Suicide",502,502
+"73","Massachusetts",2010,"60,934","Suicide",598,598
+"74","Michigan",2010,"46,276","Suicide",1263,1263
+"75","Minnesota",2010,"52,321","Suicide",606,606
+"76","Mississippi",2010,"38,160","Suicide",388,388
+"77","Missouri",2010,"45,817","Suicide",856,856
+"78","Montana",2010,"41,280","Suicide",227,227
+"79","Nebraska",2010,"52,504","Suicide",193,193
+"80","Nevada",2010,"51,200","Suicide",547,547
+"81","New Hampshire",2010,"66,633","Suicide",196,196
+"82","New Jersey",2010,"62,968","Suicide",719,719
+"83","New Mexico",2010,"45,134","Suicide",413,413
+"84","New York",2010,"49,781","Suicide",1547,1547
+"85","North Carolina",2010,"43,830","Suicide",1174,1174
+"86","North Dakota",2010,"51,006","Suicide",106,106
+"87","Ohio",2010,"45,886","Suicide",1439,1439
+"88","Oklahoma",2010,"43,103","Suicide",618,618
+"89","Oregon",2010,"50,602","Suicide",685,685
+"90","Pennsylvania",2010,"48,314","Suicide",1576,1576
+"91","Rhode Island",2010,"51,623","Suicide",129,129
+"92","South Carolina",2010,"41,698","Suicide",637,637
+"93","South Dakota",2010,"45,352","Suicide",140,140
+"94","Tennessee",2010,"38,591","Suicide",943,943
+"95","Texas",2010,"47,266","Suicide",2891,2891
+"96","Utah",2010,"56,701","Suicide",473,473
+"97","Vermont",2010,"55,928","Suicide",106,106
+"98","Virginia",2010,"60,367","Suicide",963,963
+"99","Washington",2010,"56,163","Suicide",957,957
+"100","West Virginia",2010,"42,777","Suicide",279,279
+"101","Wisconsin",2010,"50,351","Suicide",793,793
+"102","Wyoming",2010,"52,201","Suicide",131,131
+"103","Alabama",2005,"37,150","Suicide",535,535
+"104","Alaska",2005,"55,891","Suicide",131,131
+"105","Arizona",2005,"45,245","Suicide",945,945
+"106","Arkansas",2005,"36,658","Suicide",400,400
+"107","California",2005,"51,755","Suicide",3206,3206
+"108","Colorado",2005,"50,449","Suicide",800,800
+"109","Connecticut",2005,"56,835","Suicide",295,295
+"110","Delaware",2005,"51,235","Suicide",83,83
+"111","D.C.",2005,"44,993",NA,NA,NA
+"112","Florida",2005,"42,990","Suicide",2347,2347
+"113","Georgia",2005,"45,926","Suicide",924,924
+"114","Hawaii",2005,"59,586","Suicide",107,107
+"115","Idaho",2005,"44,176","Suicide",228,228
+"116","Illinois",2005,"48,398","Suicide",1086,1086
+"117","Indiana",2005,"42,437","Suicide",745,745
+"118","Iowa",2005,"46,500","Suicide",333,333
+"119","Kansas",2005,"42,027","Suicide",362,362
+"120","Kentucky",2005,"36,699","Suicide",566,566
+"121","Louisiana",2005,"37,236","Suicide",505,505
+"122","Maine",2005,"43,923","Suicide",175,175
+"123","Maryland",2005,"60,512","Suicide",472,472
+"124","Massachusetts",2005,"56,017","Suicide",480,480
+"125","Michigan",2005,"45,933","Suicide",1108,1108
+"126","Minnesota",2005,"54,215","Suicide",547,547
+"127","Mississippi",2005,"32,875","Suicide",363,363
+"128","Missouri",2005,"42,986","Suicide",727,727
+"129","Montana",2005,"37,313","Suicide",206,206
+"130","Nebraska",2005,"47,923","Suicide",187,187
+"131","Nevada",2005,"48,209","Suicide",480,480
+"132","New Hampshire",2005,"56,984","Suicide",162,162
+"133","New Jersey",2005,"63,368","Suicide",536,536
+"134","New Mexico",2005,"38,947","Suicide",342,342
+"135","New York",2005,"47,176","Suicide",1189,1189
+"136","North Carolina",2005,"42,056","Suicide",1009,1009
+"137","North Dakota",2005,"42,192","Suicide",92,92
+"138","Ohio",2005,"44,203","Suicide",1341,1341
+"139","Oklahoma",2005,"37,645","Suicide",522,522
+"140","Oregon",2005,"44,159","Suicide",560,560
+"141","Pennsylvania",2005,"46,300","Suicide",1430,1430
+"142","Rhode Island",2005,"49,484","Suicide",71,71
+"143","South Carolina",2005,"40,230","Suicide",510,510
+"144","South Dakota",2005,"43,151","Suicide",121,121
+"145","Tennessee",2005,"39,406","Suicide",856,856
+"146","Texas",2005,"41,422","Suicide",2418,2418
+"147","Utah",2005,"54,813","Suicide",348,348
+"148","Vermont",2005,"50,704","Suicide",78,78
+"149","Virginia",2005,"51,914","Suicide",866,866
+"150","Washington",2005,"50,646","Suicide",822,822
+"151","West Virginia",2005,"36,445","Suicide",255,255
+"152","Wisconsin",2005,"44,650","Suicide",643,643
+"153","Wyoming",2005,"44,718","Suicide",90,90
+"154","Alabama",2000,"35,424","Suicide",583,583
+"155","Alaska",2000,"52,847","Suicide",137,137
+"156","Arizona",2000,"39,783","Suicide",784,784
+"157","Arkansas",2000,"29,697","Suicide",349,349
+"158","California",2000,"46,816","Suicide",2969,2969
+"159","Colorado",2000,"48,240","Suicide",613,613
+"160","Connecticut",2000,"50,172","Suicide",304,304
+"161","Delaware",2000,"50,365","Suicide",82,82
+"162","D.C.",2000,"41,222",NA,NA,NA
+"163","Florida",2000,"38,856","Suicide",2086,2086
+"164","Georgia",2000,"41,901","Suicide",847,847
+"165","Hawaii",2000,"51,546","Suicide",137,137
+"166","Idaho",2000,"37,611","Suicide",167,167
+"167","Illinois",2000,"46,064","Suicide",1003,1003
+"168","Indiana",2000,"40,865","Suicide",683,683
+"169","Iowa",2000,"40,991","Suicide",289,289
+"170","Kansas",2000,"41,059","Suicide",325,325
+"171","Kentucky",2000,"36,265","Suicide",521,521
+"172","Louisiana",2000,"30,718","Suicide",468,468
+"173","Maine",2000,"37,266","Suicide",154,154
+"174","Maryland",2000,"54,535","Suicide",474,474
+"175","Massachusetts",2000,"46,753","Suicide",387,387
+"176","Michigan",2000,"45,512","Suicide",974,974
+"177","Minnesota",2000,"54,251","Suicide",440,440
+"178","Mississippi",2000,"34,299","Suicide",294,294
+"179","Missouri",2000,"45,097","Suicide",699,699
+"180","Montana",2000,"32,777","Suicide",158,158
+"181","Nebraska",2000,"41,750","Suicide",193,193
+"182","Nevada",2000,"45,758","Suicide",400,400
+"183","New Hampshire",2000,"50,926","Suicide",131,131
+"184","New Jersey",2000,"50,405","Suicide",560,560
+"185","New Mexico",2000,"35,093","Suicide",327,327
+"186","New York",2000,"40,744","Suicide",1132,1132
+"187","North Carolina",2000,"38,317","Suicide",971,971
+"188","North Dakota",2000,"35,996","Suicide",68,68
+"189","Ohio",2000,"42,962","Suicide",1088,1088
+"190","Oklahoma",2000,"32,432","Suicide",497,497
+"191","Oregon",2000,"42,499","Suicide",493,493
+"192","Pennsylvania",2000,"42,176","Suicide",1356,1356
+"193","Rhode Island",2000,"42,197","Suicide",75,75
+"194","South Carolina",2000,"37,570","Suicide",443,443
+"195","South Dakota",2000,"36,475","Suicide",95,95
+"196","Tennessee",2000,"34,096","Suicide",730,730
+"197","Texas",2000,"38,609","Suicide",2053,2053
+"198","Utah",2000,"47,550","Suicide",298,298
+"199","Vermont",2000,"39,594","Suicide",77,77
+"200","Virginia",2000,"47,163","Suicide",768,768
+"201","Washington",2000,"42,525","Suicide",727,727
+"202","West Virginia",2000,"29,411","Suicide",245,245
+"203","Wisconsin",2000,"45,088","Suicide",590,590
+"204","Wyoming",2000,"39,629","Suicide",83,83
