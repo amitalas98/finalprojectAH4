@@ -43,21 +43,36 @@ page_four <- tabPanel(
     )
   )
 )
-
 page_five <- tabPanel(
+  "Poverty",
+  titlePanel("Poverty vs Suicide Rate"),
+  br(),br(),br(),br(),
+  sidebarLayout(
+    sidebarPanel(
+      radioButtons("years3", "years", c("2000", "2005", "2010", "2015"), selected = "2000")
+    ),
+    mainPanel(
+      h3("Scatterplot of Poverty vs Suicide Rate"),
+      plotlyOutput("povertyPlot")
+    )
+  )
+)
+  
+
+page_six <- tabPanel(
   "Suicide Rates Across USA"
 )
 
 
-page_six <- tabPanel(
+page_seven <- tabPanel(
   "Conclusion"
 )
 
-page_seven <- tabPanel(
+page_eight <- tabPanel(
   "About the Tech"
 )
 
-page_eight <- tabPanel(
+page_nine <- tabPanel(
   "About Us"
 )
 
@@ -72,7 +87,8 @@ my_ui <- navbarPage(
   ),
   page_six,
   page_seven,
-  page_eight
+  page_eight,
+  page_nine
 )
 
 
@@ -82,7 +98,8 @@ my_server <- shinyServer(function(input, output){
   df <- read.csv("unemployment_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$unemploymentPlot <- renderPlotly({
     df = df %>% filter(Year == input$years)
-    ggplot(df, aes(x = Suicide.Rate, y = Unemployment.Rate)) + geom_point(aes(text=State))
+    ggplot(df, aes(x = Suicide.Rate, y = Unemployment.Rate)) + 
+      geom_point(aes(text=State))
   })
   
   df2 <- read.csv("income_scatterplot_df.csv", stringsAsFactors = FALSE)
@@ -92,6 +109,15 @@ my_server <- shinyServer(function(input, output){
       geom_point(aes(text=State))
 
       
+  })
+  
+  df3 <- read.csv("poverty_scatterplot_df.csv", stringsAsFactors = FALSE)
+  output$povertyPlot <- renderPlotly({
+    df3 = df3 %>% filter(Year == input$years3)
+    ggplot(df3, aes(x = Suicide.Rate, y = Poverty.Rate)) + 
+      geom_point(aes(text=State))
+    
+    
   })
   
 })
