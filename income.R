@@ -10,3 +10,4 @@ income_data$"20102" <- NULL
 income_data$"20052" <- NULL
 income_data$"20002" <- NULL
 
+write.csv(income_data,'income_data.csv')
