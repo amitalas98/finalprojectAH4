@@ -1,70 +1,68 @@
-library(shiny)
+suic_state <-
+  read.csv("./four_years_state_suicide.csv", stringsAsFactors = FALSE)
+
+install.packages("geojsonio")
+install.packages("rgdal")
+devtools::install_github("wmurphyrd/fiftystater")
+
+library("rgdal")
+
+library(ggplot2)
+library(tidyverse)
+library(fiftystater)
+library(dplyr)
+library(plotly)
+install.packages("plotly")
+
+
+
+suic_state %>% glimpse()
+
+data("fifty_states")
+
+library(plotly)
+
+set.seed(955)
+# Make some noisily increasing data
+dat <- data.frame(suic_state,
+                  suicide_rate = "X2015",
+                  State = "State")
+
+p <- ggplot(dat, aes(x=xvar, y=yvar)) +
+  geom_point(shape=1)      # Use hollow circles
+
+p <- ggplotly(p)
+
+
+g <- ggplot() + geom_polygon(data=fifty_states, aes(x=long, y=lat, group = group),color="white", fill="grey92" ) + 
+  geom_point(data=suic_state, aes(x=long, y=lat, colour=X2015)) + 
+  scale_size(name="", range = c(2, 20)) + 
+  theme_void()
+
+gz <- ggplotly(g, tooltip = c("X2015"))
+
+
+print(gz)
+
+
+
+
+
+
+
+
 library(leaflet)
-library(RColorBrewer)
-
-ui <- bootstrapPage(
-  tags$style(type = "text/css", "html, body {width:100%;height:100%}"),
-  leafletOutput("map", width = "100%", height = "100%"),
-  absolutePanel(top = 10, right = 10,
-                sliderInput("range", "Magnitudes", min(quakes$mag), max(quakes$mag),
-                            value = range(quakes$mag), step = 0.1
-                ),
-                selectInput("colors", "Color Scheme",
-                            rownames(subset(brewer.pal.info, category %in% c("seq", "div")))
-                ),
-                checkboxInput("legend", "Show legend", TRUE)
+suicide_num <- suic_state$X2015
+interactive_map <- leaflet(data = suic_state) %>%
+  addTiles() %>% 
+  addCircles(
+    lat = ~lat,
+    lng = ~long,
+    popup = ~paste("Year: 2015", "<br>",
+                  "Suicide Number: ", suic_state$X2015, "<br>",
+                  "State: ", suic_state$State, "<br>"),
+    radius = ~suicide_num * 50,
+    stroke = FALSE
   )
-)
-
-server <- function(input, output, session) {
   
-  # Reactive expression for the data subsetted to what the user selected
-  filteredData <- reactive({
-    quakes[quakes$mag >= input$range[1] & quakes$mag <= input$range[2],]
-  })
-  
-  # This reactive expression represents the palette function,
-  # which changes as the user makes selections in UI.
-  colorpal <- reactive({
-    colorNumeric(input$colors, quakes$mag)
-  })
-  
-  output$map <- renderLeaflet({
-    # Use leaflet() here, and only include aspects of the map that
-    # won't need to change dynamically (at least, not unless the
-    # entire map is being torn down and recreated).
-    leaflet(quakes) %>% addTiles() %>%
-      fitBounds(~min(long), ~min(lat), ~max(long), ~max(lat))
-  })
-  
-  # Incremental changes to the map (in this case, replacing the
-  # circles when a new color is chosen) should be performed in
-  # an observer. Each independent set of things that can change
-  # should be managed in its own observer.
-  observe({
-    pal <- colorpal()
-    
-    leafletProxy("map", data = filteredData()) %>%
-      clearShapes() %>%
-      addCircles(radius = ~10^mag/10, weight = 1, color = "#777777",
-                 fillColor = ~pal(mag), fillOpacity = 0.7, popup = ~paste(mag)
-      )
-  })
-  
-  # Use a separate observer to recreate the legend as needed.
-  observe({
-    proxy <- leafletProxy("map", data = quakes)
-    
-    # Remove any existing legend, and only if the legend is
-    # enabled, create a new one.
-    proxy %>% clearControls()
-    if (input$legend) {
-      pal <- colorpal()
-      proxy %>% addLegend(position = "bottomright",
-                          pal = pal, values = ~mag
-      )
-    }
-  })
-}
-
-shinyApp(ui, server)
+print(interactive_map)
