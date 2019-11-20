@@ -82,13 +82,13 @@ my_server <- shinyServer(function(input, output){
   df <- read.csv("unemployment_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$unemploymentPlot <- renderPlotly({
     df = df %>% filter(Year == input$years)
-    ggplot(df, aes(x = Suicides, y = Unemployment.Rate)) + geom_point(aes(text=State))
+    ggplot(df, aes(x = Suicide.Rate, y = Unemployment.Rate)) + geom_point(aes(text=State))
   })
   
   df2 <- read.csv("income_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$incomePlot <- renderPlotly({
     df2 = df2 %>% filter(Year == input$years2)
-    ggplot(df2, aes(x = Suicides, y = Income)) + 
+    ggplot(df2, aes(x = Suicide.Rate, y = Income)) + 
       geom_point(aes(text=State))
 
       
