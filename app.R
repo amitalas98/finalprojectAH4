@@ -98,16 +98,16 @@ my_server <- shinyServer(function(input, output){
   df <- read.csv("unemployment_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$unemploymentPlot <- renderPlotly({
     df = df %>% filter(Year == input$years)
-    ggplot(df, aes(x = Suicide.Rate, y = Unemployment.Rate)) + 
-      geom_point(aes(text=State))
+    ggplot(df, aes(y = Suicide.Rate, x = Unemployment.Rate)) + 
+      geom_point(aes(text=State)) + geom_smooth()
   })
   
   df2 <- read.csv("income_scatterplot_df.csv", stringsAsFactors = FALSE)
   df2$Income <- as.numeric(gsub(",", "", df2$Income))
   output$incomePlot <- renderPlotly({
     df2 = df2 %>% filter(Year == input$years2)
-    ggplot(df2, aes(x = Suicide.Rate, y = Income)) + 
-      geom_point(aes(text=State))
+    ggplot(df2, aes(y = Suicide.Rate, x = Income)) + 
+      geom_point(aes(text=State)) + geom_smooth()
     
       
   })
@@ -115,8 +115,8 @@ my_server <- shinyServer(function(input, output){
   df3 <- read.csv("poverty_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$povertyPlot <- renderPlotly({
     df3 = df3 %>% filter(Year == input$years3)
-    ggplot(df3, aes(x = Suicide.Rate, y = Poverty.Rate)) + 
-      geom_point(aes(text=State))
+    ggplot(df3, aes(y = Suicide.Rate, x = Poverty.Rate)) + 
+      geom_point(aes(text=State)) + geom_smooth()
     
     
   })
