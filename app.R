@@ -287,17 +287,20 @@ my_server <- shinyServer(function(input, output){
                                  popup = paste("Year: 2000", "<br>",
                                                "Suicide Number: ", data$X2000, "<br>",
                                                "State: ", data$State),radius = ~data$X2000 * 0.005)
-    } else if (input$X2005) {
+    } 
+    if (input$X2005) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2005), fillOpacity = 0.5, 
                                  popup = paste("Year: 2005", "<br>",
                                                "Suicide Number: ", data$X2005, "<br>",
                                                "State: ", data$State, "<br>"), radius = ~data$X2005 * 0.005)
-    } else if (input$X2010) {
+    } 
+    if (input$X2010) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2010), fillOpacity = 0.5, 
                                  popup = paste("Year: 2010", "<br>",
                                                "Suicide Number: ", data$X2010, "<br>",
                                                "State: ", data$State, "<br>"), radius = ~data$X2010 * 0.005)
-    } else if (input$X2015) {
+    } 
+    if (input$X2015) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2015), fillOpacity = 0.5, 
                                  popup = paste("Year: 2015", "<br>",
                                                "Suicide Number: ", data$X2015, "<br>",
