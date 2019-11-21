@@ -22,7 +22,11 @@ page_one <- tabPanel(
       do not feel extremely comfortable seeking help for their mental needs and can lead 
       to many people suffering alone. Society and social media in the United States especially 
       today rides on a key value of appearing as if life is perfect, 
+<<<<<<< HEAD
       flawless, and effortless; this can directly contribute to someone’s 
+=======
+      flawless, and effortless; this can directly contribute to someone's 
+>>>>>>> d67df84d7156739c0cbebf3f6a113cb0b5324de9
       mental health and make them feel outcasted or ashamed if they feel different."),
       h3("2. What is the Problem?"),
       p("The problem is the continuous rising of suicide rates in the United States 
@@ -64,7 +68,7 @@ page_two <- tabPanel(
   ),br(),br(),
   strong("Research Question 1:"),br(),
   p("How do factors like unemployment rates and poverty 
-      percentage contribute to each stateâ��s suicide rate in 2000, 2005, 2010, and 2015?"),br(),br(),
+      percentage contribute to each state's suicide rate in 2000, 2005, 2010, and 2015?"),br(),br(),
   strong("Research Question 2:"),
   p("How does trends of suicide rates look for each state and what 
       have been the trends from 2000 to 2015?") 
@@ -175,7 +179,7 @@ page_eight <- tabPanel(
     "We loaded all of our data sets through csv files and reading it into R. The major libraries 
     of data we used were the CDC, US Department of Labor's Bureau of Labor Statistics, and Census Bureau
     . We organized our code by csv files pertaining to the subject and section of our Shiny App. We hope
-    to be answering the questions of correlation between different variables in a personâ��s life and the 
+    to be answering the questions of correlation between different variables in a person's life and the 
     rate of suicide depending on those variable. Our shiny app is comprised tabs including an introduction
     to express the background and research questions, our 4 visualizations, a conclusion, the technology we
     used, and a page about our group. For the 3 scatter plot graphs, we are comparing one social-economic 
