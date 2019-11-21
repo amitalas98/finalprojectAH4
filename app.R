@@ -3,7 +3,8 @@ library(ggplot2)
 library(dplyr)
 library(plotly)
 library(tidyr)
-library(shiny)  
+library(shiny)
+library(leaflet)
 
 page_one <- tabPanel(
   "Introduction"
@@ -57,7 +58,24 @@ page_five <- tabPanel(
     )
   )
 )
-  
+
+
+page_ten_for_state_suicide <- tabPanel(
+  "Suicide num in each state",
+  titlePanel("Suicide num in each state"),
+  br(),br(),br(),br(),
+    mainPanel( 
+      #this will create a space for us to display our map "2000", "2005", "2010", "2015"
+      leafletOutput(outputId = "mymap"), 
+      #this allows me to put the checkmarks ontop of the map to allow people to view earthquake depth or overlay a heatmap
+      absolutePanel(top = 60, left = 20, 
+                    checkboxInput("X2000", "2000", FALSE),
+                    checkboxInput("X2005", "2005", FALSE), 
+                    checkboxInput("X2010", "2010", FALSE),
+                    checkboxInput("X2015", "2015", FALSE)
+      )
+    )
+  )
 
 page_six <- tabPanel(
   "Suicide Rates Across USA"
@@ -76,6 +94,7 @@ page_nine <- tabPanel(
   "About Us"
 )
 
+
 my_ui <- navbarPage(
   "AH4", 
   page_one,     
@@ -83,7 +102,8 @@ my_ui <- navbarPage(
   navbarMenu("Visualizations",
              page_three,
              page_four,
-             page_five
+             page_five,
+             page_ten_for_state_suicide
   ),
   page_six,
   page_seven,
@@ -118,6 +138,99 @@ my_server <- shinyServer(function(input, output){
       geom_point(aes(text=State))
     
     
+  })
+  
+  #define the color pallate
+  data <- read.csv("by-state-suicide/new_suic_state.csv")
+  pal <- colorNumeric(
+    palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
+    domain = data$X2000)
+  # #define the color pallate
+  # pal2 <- colorNumeric(
+  #   palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
+  #   domain = data$X2005)
+  # #define the color pallate
+  # pal3 <- colorNumeric(
+  #   palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
+  #   domain = data$X2010)
+  # #define the color pallate
+  # pal4 <- colorNumeric(
+  #   palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
+  #   domain = data$X2015)
+  
+  #create the map
+  output$mymap <- renderLeaflet({
+    leaflet(data) %>% 
+      addTiles() %>% 
+      addCircles(data = data, lat = ~lat, lng = ~long, weight = 1, popup = ~as.character(X2000), 
+                 label = ~paste("Year: 2000",
+                                "Suicide Number: ", data$X2000,
+                                "State: ", data$State), radius = ~data$X2000 * 50,
+                 color = ~pal(X2000), fillOpacity = 0.5)
+  })
+  
+  observe({
+    proxy <- leafletProxy("mymap", data = data)
+    proxy %>% clearMarkers()
+    if (input$X2000) {
+      proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2000), fillOpacity = 0.5, 
+                                 label = ~paste("Year: 2000", "<br>",
+                                                              "Suicide Number: ", data$X2000, "<br>",
+                                                              "State: ", data$State, "<br>"), radius = ~data$X2000 * 0.005) %>%
+        addLegend("bottomright", pal = pal, values = data$X2000,
+                  title = "Suicde Num in 2000",
+                  opacity = 1)}
+    else {
+      proxy %>% clearMarkers() %>% clearControls()
+    }
+  })
+  
+  observe({
+    proxy <- leafletProxy("mymap", data = data)
+    proxy %>% clearMarkers()
+    if (input$X2005) {
+      proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2005), fillOpacity = 0.5, 
+                                 label = ~as.character(~paste("Year: 2005", "<br>",
+                                                              "Suicide Number: ", data$X2005, "<br>",
+                                                              "State: ", data$State, "<br>")), radius = ~data$X2005 * 0.005) %>%
+        addLegend("bottomright", pal = pal, values = data$X2005,
+                  title = "Suicde Num in 2005",
+                  opacity = 1)}
+    else {
+      proxy %>% clearMarkers() %>% clearControls()
+    }
+  })
+  
+  observe({
+    proxy <- leafletProxy("mymap", data = data)
+    proxy %>% clearMarkers()
+    if (input$X2010) {
+      proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2010), fillOpacity = 0.5, 
+                                 label = ~as.character(~paste("Year: 2010", "<br>",
+                                                              "Suicide Number: ", data$X2010, "<br>",
+                                                              "State: ", data$State, "<br>")), radius = ~data$X2010 * 0.005) %>%
+        addLegend("bottomright", pal = pal, values = data$X2010,
+                  title = "Suicde Num in 2010",
+                  opacity = 1)}
+    else {
+      proxy %>% clearMarkers() %>% clearControls()
+    }
+  })
+  
+  observe({
+    proxy <- leafletProxy("mymap", data = data)
+    proxy %>% clearMarkers()
+    if (input$X2015) {
+      proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2015), fillOpacity = 0.5, 
+                                 label = ~as.character(~paste("Year: 2015", "<br>",
+                                                              "Suicide Number: ", data$X2015, "<br>",
+                                                              "State: ", data$State, "<br>")), radius = ~data$X2015 * 0.005) %>%
+        addLegend("bottomright", pal = pal, values = data$X2015,
+                  title = "Suicde Num in 2015",
+                  opacity = 1)}
+    else {
+      proxy %>% clearMarkers() %>% clearControls()
+    }
   })
   
 })
