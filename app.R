@@ -29,7 +29,6 @@ page_three <- tabPanel(
   )
 )
 
-
 page_four <- tabPanel(
   "Income",
   titlePanel("Income vs Suicide Rate"),
@@ -44,6 +43,7 @@ page_four <- tabPanel(
     )
   )
 )
+
 page_five <- tabPanel(
   "Poverty",
   titlePanel("Poverty vs Suicide Rate"),
@@ -151,7 +151,7 @@ my_server <- shinyServer(function(input, output){
                  color = ~pal(X2015), fillOpacity = 0.5)  %>%
       addLegend("bottomright", pal = pal, values = data$X2015,
                 title = "Suicde Num Scale",
-                opacity = 1)
+                opacity = 1) 
   })
   
   observe({
