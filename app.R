@@ -58,7 +58,7 @@ page_two <- tabPanel(
   shows that suicide rates are increasing. With the information gathered by the CDC and the US Census 
   Bureau it is apparent that this problem is very present in each state and affects a lot of people. 
   It is hard to pinpoint the exact cause of someone taking their life but it is known that excess 
-  stress can be a reason someone doesn’t want to be alive anymore. Especially in the capitalist nature 
+  stress can be a reason someone doesn't want to be alive anymore. Especially in the capitalist nature 
   of the United States problems related to money, jobs, and how comfortably you can live your life is a 
   growing issue throughout each state as the middle class begins to disappear and living costs rise."
   ),br(),br(),
@@ -142,14 +142,14 @@ page_seven <- tabPanel(
   p("For research about the correlation between unemployment percent and suicide rate from 2000 to 2015, 
     we conclude that this is a weak to no correlation trend through each year. From our data we cannot 
     state if there is a definite relation because of the randomness of the points. This is why we can 
-    begin to conclude that one’s unemployment status depending on the state and throughout each year, 
+    begin to conclude that one's unemployment status depending on the state and throughout each year, 
     does not have a causation nor correlation to suicide.
     For research about the correlation between income and suicide rates from 2000 to 2015, 
     we conclude that these trends are weak to medium correlation for each year. In the scatterplot 
     of 2005 and 2010, the trend line is a negative slope which confirms the correlation that the 
     higher salary of a state leads to fewer suicides. In 2000 and 2015, there is less of a correlation 
     and it is difficult to see a real trend with the data so there is less correlation. This is why we 
-    can begin to conclude that one’s income depending on the state and throughout each year, does not 
+    can begin to conclude that one's income depending on the state and throughout each year, does not 
     have a clear direct causation but it is possible because there is a correlation for some years.
     For research about the correlation between poverty and suicide rate from 2000 to 2015, we conclude 
     that these trends are weak to medium correlation for each year. In the scatterplot of 2000, 2005, 
@@ -202,18 +202,18 @@ page_nine <- tabPanel(
   p("I am Kevin(Bobin) from Hangzhou, China. I am a sophomore at UW, currently trying to major in ACMS. 
   Info201 teaches me to analyze data by coding in R. This would help me in the future when I need to 
   gain insights from data. In my free time, I like travelling and playing sports."),
-  p("Hi I’m Adrianna and I’m a junior from Seattle in the Public Health - Global Health Major 
+  p("Hi I'm Adrianna and I'm a junior from Seattle in the Public Health - Global Health Major 
     and Informatics Minor. My favorite thing about INFO 201 is having the collaborative work 
-    environment of the class and meeting my awesome group mates 🙂 In my free time I like to 
+    environment of the class and meeting my awesome group mates. In my free time I like to 
   cook, play video games, and watch horror movies on Netflix."),
-  p("Hey~~~This is Betty. I’m a sophomore from Taiwan. My intended majors are informatics 
+  p("Hey~~~This is Betty. I'm a sophomore from Taiwan. My intended majors are informatics 
   and Computer Science. INFO 201 makes me learn a lot and meet some amazing people, such 
   as my group mates. In my free time, I like to sing, sleep, hang out with friends, play 
   volleyball and soccer. "),
-  p("Hi, my name is William and I’m an exchange student from Sydney, Australia. Currently, 
+  p("Hi, my name is William and I'm an exchange student from Sydney, Australia. Currently, 
   I am a junior at the Foster School of Business Finance Major. I enjoy travelling, 
   talking to new people and trying new things. One of my passions is cooking 
-  (who doesn’t like Gordon Ramsay?) and playing the cello. INFO201 has been an 
+  (who doesn't like Gordon Ramsay?) and playing the cello. INFO201 has been an 
   exciting but homework intensive course. I have learnt a lot about R and its 
   capabilities. Data is everywhere and I am glad that I took this course.")
 )
