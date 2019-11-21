@@ -22,7 +22,11 @@ page_one <- tabPanel(
       do not feel extremely comfortable seeking help for their mental needs and can lead 
       to many people suffering alone. Society and social media in the United States especially 
       today rides on a key value of appearing as if life is perfect, 
+<<<<<<< HEAD
+      flawless, and effortless; this can directly contribute to someone’s 
+=======
       flawless, and effortless; this can directly contribute to someone's 
+>>>>>>> d67df84d7156739c0cbebf3f6a113cb0b5324de9
       mental health and make them feel outcasted or ashamed if they feel different."),
       h3("2. What is the Problem?"),
       p("The problem is the continuous rising of suicide rates in the United States 
