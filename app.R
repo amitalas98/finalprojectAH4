@@ -152,29 +152,18 @@ my_server <- shinyServer(function(input, output){
   data <- read.csv("by-state-suicide/new_suic_state.csv")
   pal <- colorNumeric(
     palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
-    domain = data$X2000)
-  # #define the color pallate
-  # pal2 <- colorNumeric(
-  #   palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
-  #   domain = data$X2005)
-  # #define the color pallate
-  # pal3 <- colorNumeric(
-  #   palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
-  #   domain = data$X2010)
-  # #define the color pallate
-  # pal4 <- colorNumeric(
-  #   palette = c('gold', 'orange', 'dark orange', 'orange red', 'red', 'dark red'),
-  #   domain = data$X2015)
+    domain = data$X2015)
   
   #create the map
   output$mymap <- renderLeaflet({
     leaflet(data) %>% 
       addTiles() %>% 
-      addCircles(data = data, lat = ~lat, lng = ~long, weight = 1, popup = ~as.character(X2000), 
-                 label = ~paste("Year: 2000",
-                                "Suicide Number: ", data$X2000,
-                                "State: ", data$State), radius = ~data$X2000 * 50,
-                 color = ~pal(X2000), fillOpacity = 0.5)
+      addCircleMarkers(data = data, lat = ~lat, lng = ~long, weight = 1, 
+                 radius = data$X2000 * 0.005,
+                 color = ~pal(X2015), fillOpacity = 0.5)  %>%
+      addLegend("bottomright", pal = pal, values = data$X2015,
+                title = "Suicde Num Scale",
+                opacity = 1)
   })
   
   observe({
@@ -182,62 +171,24 @@ my_server <- shinyServer(function(input, output){
     proxy %>% clearMarkers()
     if (input$X2000) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2000), fillOpacity = 0.5, 
-                                 label = ~paste("Year: 2000", "<br>",
-                                                              "Suicide Number: ", data$X2000, "<br>",
-                                                              "State: ", data$State, "<br>"), radius = ~data$X2000 * 0.005) %>%
-        addLegend("bottomright", pal = pal, values = data$X2000,
-                  title = "Suicde Num in 2000",
-                  opacity = 1)}
-    else {
-      proxy %>% clearMarkers() %>% clearControls()
-    }
-  })
-  
-  observe({
-    proxy <- leafletProxy("mymap", data = data)
-    proxy %>% clearMarkers()
-    if (input$X2005) {
+                                popup = paste("Year: 2000", "<br>",
+                                              "Suicide Number: ", data$X2000, "<br>",
+                                              "State: ", data$State),radius = ~data$X2000 * 0.005)
+    } else if (input$X2005) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2005), fillOpacity = 0.5, 
-                                 label = ~as.character(~paste("Year: 2005", "<br>",
-                                                              "Suicide Number: ", data$X2005, "<br>",
-                                                              "State: ", data$State, "<br>")), radius = ~data$X2005 * 0.005) %>%
-        addLegend("bottomright", pal = pal, values = data$X2005,
-                  title = "Suicde Num in 2005",
-                  opacity = 1)}
-    else {
-      proxy %>% clearMarkers() %>% clearControls()
-    }
-  })
-  
-  observe({
-    proxy <- leafletProxy("mymap", data = data)
-    proxy %>% clearMarkers()
-    if (input$X2010) {
+                                 popup = paste("Year: 2005", "<br>",
+                                                "Suicide Number: ", data$X2005, "<br>",
+                                                "State: ", data$State, "<br>"), radius = ~data$X2005 * 0.005)
+    } else if (input$X2010) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2010), fillOpacity = 0.5, 
-                                 label = ~as.character(~paste("Year: 2010", "<br>",
-                                                              "Suicide Number: ", data$X2010, "<br>",
-                                                              "State: ", data$State, "<br>")), radius = ~data$X2010 * 0.005) %>%
-        addLegend("bottomright", pal = pal, values = data$X2010,
-                  title = "Suicde Num in 2010",
-                  opacity = 1)}
-    else {
-      proxy %>% clearMarkers() %>% clearControls()
-    }
-  })
-  
-  observe({
-    proxy <- leafletProxy("mymap", data = data)
-    proxy %>% clearMarkers()
-    if (input$X2015) {
+                                 popup = paste("Year: 2010", "<br>",
+                                                "Suicide Number: ", data$X2010, "<br>",
+                                                "State: ", data$State, "<br>"), radius = ~data$X2010 * 0.005)
+    } else if (input$X2015) {
       proxy %>% addCircleMarkers(stroke = FALSE, color = ~pal(X2015), fillOpacity = 0.5, 
-                                 label = ~as.character(~paste("Year: 2015", "<br>",
-                                                              "Suicide Number: ", data$X2015, "<br>",
-                                                              "State: ", data$State, "<br>")), radius = ~data$X2015 * 0.005) %>%
-        addLegend("bottomright", pal = pal, values = data$X2015,
-                  title = "Suicde Num in 2015",
-                  opacity = 1)}
-    else {
-      proxy %>% clearMarkers() %>% clearControls()
+                                 popup = paste("Year: 2015", "<br>",
+                                                "Suicide Number: ", data$X2015, "<br>",
+                                                "State: ", data$State, "<br>"), radius = ~data$X2015 * 0.005) 
     }
   })
   
