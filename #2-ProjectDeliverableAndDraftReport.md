@@ -24,55 +24,55 @@ How do factors like unemployment rates, poverty percentages, and income contribu
 Between 2000 and 2015, what has been the trend of suicide rates for each state? Has it improved or worsened? If so, what sort of interventions and factors played a role?
 
 ### 3.0 Possible Data Sets
-**Data Set 1: Unemployment and Suicide Rates**  
-The combined dataset *unemployment_scatterplot_df.csv* comes from two sources and has been cleaned to represent the unemployment and suicide rate per state in the years 2000, 2005, 2010 and 2015. There are 188 observations and 8 variables, with the variables being year, state, rate_sum, cause.name, deaths, population, unemployment and suicide.rate. These variables are explained in **appendix: Data Dictionary**.
+* **Data Set 1: Unemployment and Suicide Rates**  
+The combined dataset *unemployment_scatterplot_df.csv* comes from two sources and has been cleaned to represent the unemployment and suicide rate per state in the years 2000, 2005, 2010 and 2015. There are 187 observations and 8 variables, with the variables being State, Year, rate_sum, Cause.Name, Deaths, Population, Unemployment.Rate and Suicide.Rate. These variables are explained in **Appendix 1: Data Dictionary**. The strengths of the *unemployment_scatterplot_df.csv* dataset are its robust nature, as quantifiable and holistic data are provided for all available states, and its direct correlation to our research questions. The weakness of this dataset is that the Unemployment 'state' column is missing the states of Georgia, Florida and Alaska. During the merging of the two sources, we have correspondingly removed those states from the suicide dataset. This has resulted in an incomplete dataset that may impact our visualizations. The original [US Suicides Per State]((https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu?fbclid=IwAR0EQq89YTaLq7Icqp-mWrjT7fuokDmkascnVtTxqPVzpKRCMxL0R63IDik() dataset comes from the National Centre For Health Statistics. In this dataset are the age-adjusted death rates for the 10 leading causes of death in the United States beginning in 1999, with data being collected from all resident death certificates filed in the 50 states and the District of Columbia using demographic and medical characteristics. The attributes inside the data frame include the 'Year' of death, '113 Cause Name' for details behind the death, 'Cause Name' for category of the death , the 'State' where this death occurred, the total number of cause-related 'Deaths' and deaths per 100,000 of the population in 'Age-adjusted Death Rates'. The *four_years_state_suicide.csv* subset was created by using dplyr to filter and select our areas of interest. The code used is in *datacleaning.R* and *make_new_year.R*. Likewise, the original [Unemployment](https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.kaggle.com%2Fjayrav13%2Funemployment-by-county-us%2Fdata&h=AT1G-X579pr9YkR13u3CswEsmDifbXP4CgbEmX6E3U0FuTu9IhPfrMVaXMmFTlHw4qiaVAeUw-NeQ0XnXXsH_BlA6PFjvp0HAIf8tX3LoXb4ziz5ucGk6wU42IqgCT_THXwqDA) dataset comes from the Bureau of Labor Statistics. In this dataset, the year, month, state, county and unemployment rate are specified. The *unemployment_rate_grouped.csv* subset was created using dplyr to filter and select our areas of interest. The unemployment rate per month was averaged out to create an annual unemployment rate. The code used is in *edit_unemployment_table.R*.
 
-The strength of *unemployment_scatterplot_df* are
+* **Data Set 2: Income and Suicide Rates**  
+The combined dataset *income_scatterplot_df.csv* comes from two sources and has been cleaned to represent the median income and suicide rate per state in the years 2000, 2005, 2010 and 2015. There are 200 observations and 8 variables, with the variables being State, Year, Income, Cause.Name, Deaths, Population, Suicides, Suicides.Rate. These variables are explained in **Appendix 1: Data Dictionary**. The strengths of the *income_scatterplot_df.csv* dataset are its robust nature, as quantifiable and holistic data are provided for all states, and its direct correlation to our research questions. The presence of all states, unlike Data Set 1, means that a complete map visualization is possible, allowing for easy interpretation and comparison of different states. A weakness of this dataset is the lack of a national average to act as a benchmark for both the suicide rate and the median income. The original [US Suicides Per State]((https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu?fbclid=IwAR0EQq89YTaLq7Icqp-mWrjT7fuokDmkascnVtTxqPVzpKRCMxL0R63IDik() dataset remains the same as the one used in Data Set 1: Unemployment and Suicide Rates. Meanwhile, the original [Income](www2.census.gov/programs-surveys/cps/techdocs/cpsmar19.pdf) dataset comes from the Bureau of Labor Statistics. In this dataset, the state, year and median income are specified. The *income_data.csv* subset was created using dplyr to filter and select our areas of interest. The median income per state had additional years that were removed using NULL, and subsequently manually deleted. The code used is in *income.R*.
 
-The weakness is that it is missing Georgia, Florida and Alaska.   
+* **Data Set 3: Poverty Rate and Suicide Rates**  
+The combined dataset *poverty_scatterplot_df.csv* comes from two sources and has been cleaned to represent the poverty rate and suicide rate per state in the years 2000, 2005, 2010 and 2015. There are 200 observations and 7 variables, with the variables being State, Year, Poverty.Rate, Cause.Name, Deaths, Population, Suicide.Rate. These variables are explained in **Appendix 1: Data Dictionary**.  The strengths of the *poverty_scatterplot_df.csv* dataset are its robust nature, as quantifiable and holistic data are provided for all states, and its direct correlation to our research question. A weakness of this dataset is the usage of an annualised poverty rate as it does not account for seasonal layoffs and other circumstances. A month-by-month poverty rate would provide more information on the correlation between poverty rate and suicide rates. However to maintain consistency with other datasets, annualised data was selected. The original [US Suicides Per State]((https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu?fbclid=IwAR0EQq89YTaLq7Icqp-mWrjT7fuokDmkascnVtTxqPVzpKRCMxL0R63IDik() dataset remains the same as the one used in Data Set 1: Unemployment and Suicide Rates. Meanwhile, the original [Poverty](https://www.census.gov/topics/income-poverty/poverty.html?fbclid=IwAR2rA-PB2kDNo3ABXlHAwg1m-6sEsFBZxKLigJi-dFDPFkZcHP83PrXjtBc) dataset comes from the United States Census Bureau. In this dataset, the state, the total population, the amount of individuals in poverty, the standard error of the numbers, poverty as a proportion of the total population and the standard error of the poverty proportion are specified for the years 1980 to 2018. The *povertypercentagebystate.csv* subset was created by manually copying relevant cells into an excel spreadsheet.
 
-The original [US Suicides Per State]((https://data.cdc.gov/NCHS/NCHS-Leading-Causes-of-Death-United-States/bi63-dtpu?fbclid=IwAR0EQq89YTaLq7Icqp-mWrjT7fuokDmkascnVtTxqPVzpKRCMxL0R63IDik() dataset comes from the National Centre For Health Statistics. In this dataset are the age-adjusted death rates for the 10 leading causes of death in the United States beginning in 1999, with data being collected from all resident death certificates filed in the 50 states and the District of Columbia using demographic and medical characteristics. The attributes inside the data frame include the 'Year' of death, '113 Cause Name' for details behind the death, 'Cause Name' for category of the death , the 'State' where this death occurred, the total number of cause-related 'Deaths' and deaths per 100,000 of the population in 'Age-adjusted Death Rates'. The *four_years_state_suicide.csv* subset was created by using dplyr to filter and select our areas of interest. Luckily, there were no The code used is in *datacleaning.R* and *make_new_year.R*.
-
-Likewise, the original [Unemployment](https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.kaggle.com%2Fjayrav13%2Funemployment-by-county-us%2Fdata&h=AT1G-X579pr9YkR13u3CswEsmDifbXP4CgbEmX6E3U0FuTu9IhPfrMVaXMmFTlHw4qiaVAeUw-NeQ0XnXXsH_BlA6PFjvp0HAIf8tX3LoXb4ziz5ucGk6wU42IqgCT_THXwqDA) dataset comes from the
-Bureau of Labor Statistics. In this dataset, the year, month, state, county and unemployment rate are specified. The *unemployment_rate_grouped.csv* subset was created using dplyr to filter and select our areas of interest. The unemployment rate per month was averaged out to create an annual unemployment rate. The code used is in *edit_unemployment_table.R*.
-
-* **Data Set 2: Income and Suicide Rates**
-This data set was collected by the US Census Bureau. It examines the total population of the United States and breaks it down into ethnic and gender characteristics. It also examines factors such as income, poverty, and employment. These attributes provide a comprehensive overview of the situation in each county and state. In the county dataset, there are 3221 observations and 37 attributes.
-
-* **Data Set 3: Poverty Rate and Suicide Rates**
 ### 4.0 Information Visualizations
-These visualizations display trends of suicide in the United States.
-![Suicide Rates by Sex](visualization-Images/suicide-rates-by-sex.png)
-**Figure 1** This image shows the trends and disparities of men and women through the years 1999 to 2017.
-![Suicide Rates Rising](visualization-Images/suicide-rising-rates.png)
-**Figure 2** This image shows the rates of suicide rate growth from the years 1999 to 2016.
+**Visualization 1**  
+To clearly outline the relationship between unemployment, income and poverty rates on the suicide rate per state (as outlined in Research Question 1), our team considered the following criteria to select a suitable visualization:
 
-### 5.0 Team Coordination
-1. Meeting Times:
-* Monday: 3:30pm - 6:30pm
-* Tuesday: 9am - 10am (back up)
-* Friday: 3:30 - 6:30 (back up)
+* Ease of visibility and distinguishability of data points
+* Illustration of trends across the years
+* Shows the relationship between two variables
+* Ability to cross-compare the states
+* Interactivity (eg. a pop-up) for further information
 
-2. Individual goal(s) for the project and your roles:
+Subsequently, our team decided on an **interactive scatter plot**. To aid in visibility and comparison, each scatter plot had the same y-label 'Suicide.Rate/100' and a trend and variance line. A quick glance would allow users to determine which data points were outliers or performed the best. As it was difficult to compare 4 different years in a single scatter plot, we included sides bars with options '2000', '2005', '2010' and '2015' to allow the user to select their year of interest. Although this method it more difficult to compare across years, the scatter plot had fewer points and shapes that could potentially distract the user's attention. However, to facilitate cross year comparisons and observe each data point, our team used plotly to add an interactive component. A user of our shiny application could hover over a data point upon selecting a year and find out details on the unemployment rate /income/poverty rate and the suicide rate for a given state. This allowed points to be distinguishable and manually tracked.
 
-    Adrianna Mitalas: My goal for this project is to understand and analyze trends in the United States, find correlations between them, and apply them to my personal life and those around me. My role in the group is to organize our documents and make sure we are on track with progress.
+**Visualization 2**  
+As outlined in Research Question 2, our team wanted to find out the trend of suicide rates for each state and come to a reasonable conclusion. Our team considered the following criteria to select a suitable visualization:
 
-    Betty Kao: My goal for this project is to understand the reasons for the increase in the suicide rate and I hope I can find out the solution to solve the issue. I believe I am a helper in our group. I can help my groupmate do whatever they need.
+* The ability to compare the level of suicide rates across several locations at a glance
+* A medium to contextualising our data on the real world
+* Interactivity (eg. pop ups) for further information
 
-    Bobin Hu: I hope this project will build my skills in analyzing large data sets and presenting the information in an effective way. I also want to find out how suicide is linked to various social factors. My role will be collecting information from the Internet.
+Subsequently, our team decided on an **interactive map** to show the number of suicide rates for each state in given years. The use of a legend with different colors and circle sizes allows for an easy comaprison across the states. For example, if we compared California and Florida in 2015, the color and circle size is both darker and larger respectively for California. These details help users easily distinguish the relative severity of suicide rates across the United States. Furthermore, the interactive map allows the data to be overlayed on their corresponding states. This contextualizes to the user the impact of suicide on communities. Similar to visualization 1, our team found it difficult to compare 4 years in a single map. We included side bars with options '2000', '2005', '2010' and '2015' to allow the user to select their year of interest. By clicking different options, the shade and circle size per state would change. This change would help with identifying which state's suicide rates worsened or improved.  
 
-    William Yu: I wish to better understand the impact mental health has on individuals my age. The opportunity to work on such a dataset, analyse trends with industry-standard techniques and build a solid foundation would prove beneficial to my future technology career. My role in this group is to input ideas, double-check on completed work and collaborate with my fellow team members such that we can grow in a mutually supportive environment.
+### 5.0 Technical description of Shiny application  
+Our team loaded all of our data sets through csv files and reading it into R. The major libraries of data we used were the CDC, US Department of Labor's Bureau of Labor Statistics, and Census Bureau. We organized our code by csv files pertaining to the subject and section of our Shiny App. We hope to be answering the questions of correlation between different variables in a person’s life and the rate of suicide depending on those variable. Our shiny app is comprised tabs including an introduction to express the background and research questions, our 4 visualizations, a conclusion, the technology we used, and a page about our group. For the 3 scatter plot graphs, we are comparing one social-economic (income, poverty, and unemployment) to the number of suicide per state for the years 2000, 2005, 2010, and 2015. To take information from the user shiny displays a radio button box with each of the years and displays the appropriate data on a scatter plot for each. To create these graphs we used ggplot and to make them interact (displaying the appropriate state, suicide rate, and manipulated factor) we used plotly. For the interactive map, we use a map of the United States that is divided by states and we put circles, which have distinct sizes and colors, to define the difference between the number of people that commit sucide in each state. The bigger the circle means there are more people commit suicide in the State. And we also provide the data for 4 different year, which are 2000, 2005, 2010, and 2015. Taking information from the user shiny displays checkboxes with each of the years and displays the appropriate data on map. We want to make users be able to compare different years, so we choose to use checkbox, however, we are still finding ways to make it work, so far users can only use checkbox like radio button box, the map will only show the data of one year. By creating the map, we used leaflet.
 
-3. We are communicating weekly on messenger and in section
 
-4. We will give feedback and will address challenges in person by discussing in a group what is best for the team.
+### 6.0 Conclusion
 
-### 6.0 Questions for Teaching Team
-* How heavy will the workload for each part of the assignment be each week?
-* Will there be a clear way to divide up each part of an assignment?
-* How do we track changes in the repository, especially when there are multiple commits and pushes at the same time?
-* What's the overall weighting of this assignment?
 
 ### 7.0 References
 Hedegaard, Holly, et al. “Products - Data Briefs - Number 330 - September 2018.” *Centers for Disease Control and Prevention*, Centers for Disease Control and Prevention, 3 Oct. 2018, www.cdc.gov/nchs/products/databriefs/db330.htm.
 Prasad, Ritu. “Why US Suicide Rate Is On the Rise.” *BBC News*, BBC, 11 June 2018, www.bbc.com/news/world-us-canada-44416727.
+
+### Appendix 1: Data Dictionary
+
+### Appendix 2: Reflections
+
+### Appendix 3: Use of Envisioning Cards
+Envisioning Cards
+Remembering and Forgetting: Create a scenario exploring the benefits and risks of how your system affects remembering and forgetting now, in 10 years, and in 50 years.
+We used this card when discussing what this might convey to users interacting with this data. Our data shows that suicide rates are rising and so this may convey a gloom or depressing picture as users see how it effects each state.
+
+Consider Children: How might the system influence the child’s learning or play with other children?
+We used this card when discussing how a little kid might react to this data about people dying. We hope that seeing this data will help them to understand that a lot of people struggle with life and suicide nationwide. The outcome will be hopefully less bullying and more normalizing suicide and helping with the struggle.
