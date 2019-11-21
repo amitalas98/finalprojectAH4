@@ -2,14 +2,10 @@ library(ggplot2)
 library(dplyr)
 library(plotly)
 library(tidyr)
-<<<<<<< HEAD
 library(shiny)
 library(leaflet)
-
-=======
 library(shiny)  
 library(scales)
->>>>>>> 9f71675dff13297b79ec2d715ea14828f0aa6914
 page_one <- tabPanel(
   "Introduction"
 )
@@ -63,11 +59,10 @@ page_five <- tabPanel(
   )
 )
 
-<<<<<<< HEAD
 
-page_ten_for_state_suicide <- tabPanel(
-  "Suicide num in each state",
-  titlePanel("Suicide num in each state"),
+page_six <- tabPanel(
+  "Suicide Number Across America",
+  titlePanel("Suicide Number Across America"),
   br(),br(),br(),br(),
     mainPanel( 
       #this will create a space for us to display our map "2000", "2005", "2010", "2015"
@@ -81,12 +76,6 @@ page_ten_for_state_suicide <- tabPanel(
       )
     )
   )
-=======
->>>>>>> 9f71675dff13297b79ec2d715ea14828f0aa6914
-
-page_six <- tabPanel(
-  "Suicide Rates Across USA"
-)
 
 
 page_seven <- tabPanel(
@@ -110,9 +99,8 @@ my_ui <- navbarPage(
              page_three,
              page_four,
              page_five,
-             page_ten_for_state_suicide
+             page_six
   ),
-  page_six,
   page_seven,
   page_eight,
   page_nine
