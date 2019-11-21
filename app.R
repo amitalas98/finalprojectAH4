@@ -1,11 +1,15 @@
-
 library(ggplot2)
 library(dplyr)
 library(plotly)
 library(tidyr)
+<<<<<<< HEAD
 library(shiny)
 library(leaflet)
 
+=======
+library(shiny)  
+library(scales)
+>>>>>>> 9f71675dff13297b79ec2d715ea14828f0aa6914
 page_one <- tabPanel(
   "Introduction"
 )
@@ -59,6 +63,7 @@ page_five <- tabPanel(
   )
 )
 
+<<<<<<< HEAD
 
 page_ten_for_state_suicide <- tabPanel(
   "Suicide num in each state",
@@ -76,6 +81,8 @@ page_ten_for_state_suicide <- tabPanel(
       )
     )
   )
+=======
+>>>>>>> 9f71675dff13297b79ec2d715ea14828f0aa6914
 
 page_six <- tabPanel(
   "Suicide Rates Across USA"
@@ -118,24 +125,25 @@ my_server <- shinyServer(function(input, output){
   df <- read.csv("unemployment_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$unemploymentPlot <- renderPlotly({
     df = df %>% filter(Year == input$years)
-    ggplot(df, aes(x = Suicide.Rate, y = Unemployment.Rate)) + 
-      geom_point(aes(text=State))
+    ggplot(df, aes(y = Suicide.Rate / 100, x = Unemployment.Rate / 100)) + 
+      geom_point(aes(text=State)) + geom_smooth() + scale_x_continuous(labels = percent) + scale_y_continuous(labels = percent)
   })
   
   df2 <- read.csv("income_scatterplot_df.csv", stringsAsFactors = FALSE)
+  df2$Income <- as.numeric(gsub(",", "", df2$Income))
   output$incomePlot <- renderPlotly({
     df2 = df2 %>% filter(Year == input$years2)
-    ggplot(df2, aes(x = Suicide.Rate, y = Income)) + 
-      geom_point(aes(text=State))
-
-      
+    ggplot(df2, aes(y = Suicide.Rate / 100, x = Income)) + 
+      geom_point(aes(text=State)) + geom_smooth() + scale_x_continuous(labels = dollar) + scale_y_continuous(labels = percent) 
+    
+    
   })
   
   df3 <- read.csv("poverty_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$povertyPlot <- renderPlotly({
     df3 = df3 %>% filter(Year == input$years3)
-    ggplot(df3, aes(x = Suicide.Rate, y = Poverty.Rate)) + 
-      geom_point(aes(text=State))
+    ggplot(df3, aes(y = Suicide.Rate / 100, x = Poverty.Rate / 100)) + 
+      geom_point(aes(text=State)) + geom_smooth() + scale_x_continuous(labels = percent) + scale_y_continuous(labels = percent)
     
     
   })
