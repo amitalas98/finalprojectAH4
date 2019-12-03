@@ -23,4 +23,5 @@ And so on...
 ## Our Project Proposal
 A more detailed breakdown of our project proposal is linked below.
 
-[Project Proposal](https://github.com/amitalas98/finalprojectAH4/wiki)
+[Technical Report](https://github.com/amitalas98/finalprojectAH4/wiki/P2-Technical-Report) \
+[shiny app](https://finalprojectah4.shinyapps.io/finalprojectAH4/)
