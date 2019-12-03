@@ -159,54 +159,31 @@ page_six <- tabPanel(
 page_seven <- tabPanel(
   "Conclusion",
   titlePanel("Conclusion"),
-  p("For research about the correlation between unemployment percent and
-    suicide rate from 2000 to 2015, we conclude that this is a weak
-    to no correlation trend through each year. From our data we cannot
-    state if there is a definite relation because of the randomness of
-    the points. This is why we can
-    begin to conclude that one's unemployment status depending on the state
-    and throughout each year,
-    does not have a causation nor correlation to suicide.
-    For research about the correlation between income and
-    suicide rates from 2000 to 2015,
-    we conclude that these trends are weak to medium correlation for each
-    year. In the scatterplot
-    of 2005 and 2010, the trend line is a negative slope which confirms the
-    correlation that the
-    higher salary of a state leads to fewer suicides. In 2000 and 2015, there
-    is less of a correlation
-    and it is difficult to see a real trend with the data so there is less
-    correlation. This is why we
-    can begin to conclude that one's income depending on the state and
-    throughout each year, does not
-    have a clear direct causation but it is possible
-    because there is a correlation for some years.
-    For research about the correlation between poverty
-    and suicide rate from 2000 to 2015, we conclude
-    that these trends are weak to medium correlation
-    for each year. In the scatterplot of 2000, 2005,
-    and 2015 we discovered there is a slight correlation
-    of the higher percentage of poverty to suicide.
-    In 2010, there is less of a correlation so there
-    is hard to see a concrete trend through each year.
-    This is why we can begin to conclude that the poverty
-    rate of the state depending on the year, does
-    not have a clear direct causation but it is possible
-    because there is a correlation for some years.
-    To answer our research question, no there is not a
-    directly relating causation factor from the
-    social-economic factors we analyzed in our project.
-    With more years added and the diversion of
-    counties/cities, we believe we could get more concrete
-    conclusions on the effect of these factors
-    on the suicide rates.
-    For the research about the trends of
-    suicide by state from the years 2000 to 2015,
-    we conclude that the suicide rate is going up
-    in almost every state from 2000 to 2015.
-    We can see the circles that show on the map become
-    bigger and bigger and the color become darker.
-    These both show the increase of suicide number per state."
+  p("For research about the correlation between unemployment percent and suicide rate from 2000 to 2015, 
+    we conclude that this is a weak to no correlation trend through each year. From our data we cannot 
+    state if there is a definite relation because of the randomness of the points (no linear trend line). 
+    This is why we can begin to conclude that one's unemployment status depending on the state and throughout each year, 
+    does not have a causation nor correlation to suicide.",
+    p("For research about the correlation between income and suicide rates from 2000 to 2015, 
+    we conclude that these trends are weak to medium correlation for each year. In the scatterplot 
+    of 2005 and 2010, the trend line is a negative slope which confirms the correlation that the 
+    higher salary of a state leads to fewer suicides. In 2000 and 2015, there is less of a correlation 
+    and it is difficult to see a real trend with the data. Hence, we can begin to conclude that one's income depending on the state and throughout each year, does not 
+    have a clear direct causation but it is possible because there is a correlation for some years."),
+    p("For research about the correlation between poverty and suicide rate from 2000 to 2015, we conclude 
+    that these trends are weak to medium correlation for each year. In the scatterplot of 2000, 2005, 
+    and 2015 we discovered there is a slight correlation of the higher percentage of poverty to suicide. 
+    In 2010, there is less of a correlation so there is hard to see a concrete trend through each year. 
+    This is why we can begin to conclude that the poverty rate of the state depending on the year, does 
+    not have a clear direct causation but it is possible because there is a correlation for some years."),
+    p("To answer our research question, no there is not a directly relating causation factor from the 
+    social-economic factors we analyzed in our project. With more years added and the diversion of 
+    counties/cities, we believe we could get more concrete conclusions on the effect of these factors 
+    on the suicide rates."),
+    p("For the research about the trends of suicide by state from the years 2000 to 2015, 
+    we conclude that the suicide rate is going up in almost every state from 2000 to 2015. 
+    We can see the circles that show on the map become bigger and bigger and the color become darker. 
+    These both show the increase of suicide number per state.")
   )
 )
 
@@ -315,7 +292,9 @@ my_server <- shinyServer(function(input, output) {
   output$unemployment_plot <- renderPlotly({
     df <- df %>% filter(Year == input$years)
     ggplot(df, aes(y = Suicide.Rate, x = Unemployment.Rate)) +
-      geom_point(aes(text = State)) + geom_smooth()
+      geom_point(aes(text = State)) + geom_smooth() +
+      xlab("Unemployment Rate (% of individuals unemployed per state)") +
+      ylab("Suicide Rate (% of suicides per state)")
   })
 
   df2 <- read.csv("income_scatterplot_df.csv", stringsAsFactors = FALSE)
@@ -323,13 +302,17 @@ my_server <- shinyServer(function(input, output) {
   output$income_plot <- renderPlotly({
     df2 <- df2 %>% filter(Year == input$years2)
     ggplot(df2, aes(y = Suicide.Rate, x = Income)) +
-      geom_point(aes(text = State)) + geom_smooth()
+      geom_point(aes(text = State)) + geom_smooth() +
+      xlab("Income ($ Median Income per State)") +
+      ylab("Suicide Rate (% of suicides per state)")
   })
   df3 <- read.csv("poverty_scatterplot_df.csv", stringsAsFactors = FALSE)
   output$poverty_plot <- renderPlotly({
     df3 <- df3 %>% filter(Year == input$years3)
     ggplot(df3, aes(y = Suicide.Rate, x = Poverty.Rate)) +
-      geom_point(aes(text = State)) + geom_smooth()
+      geom_point(aes(text = State)) + geom_smooth() +
+      xlab("Poverty Rate (% of individuals living under poverty line per state)") + 
+      ylab("Suicide Rate (% of suicides per state)")
   })
   #define the color pallate
   data <- read.csv("by-state-suicide/new_suic_state.csv")
