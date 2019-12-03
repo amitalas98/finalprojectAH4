@@ -143,28 +143,28 @@ page_seven <- tabPanel(
     we conclude that this is a weak to no correlation trend through each year. From our data we cannot 
     state if there is a definite relation because of the randomness of the points. This is why we can 
     begin to conclude that one’s unemployment status depending on the state and throughout each year, 
-    does not have a causation nor correlation to suicide.
-    For research about the correlation between income and suicide rates from 2000 to 2015, 
+    does not have a causation nor correlation to suicide.",
+    p("For research about the correlation between income and suicide rates from 2000 to 2015, 
     we conclude that these trends are weak to medium correlation for each year. In the scatterplot 
     of 2005 and 2010, the trend line is a negative slope which confirms the correlation that the 
     higher salary of a state leads to fewer suicides. In 2000 and 2015, there is less of a correlation 
     and it is difficult to see a real trend with the data so there is less correlation. This is why we 
     can begin to conclude that one’s income depending on the state and throughout each year, does not 
-    have a clear direct causation but it is possible because there is a correlation for some years.
-    For research about the correlation between poverty and suicide rate from 2000 to 2015, we conclude 
+    have a clear direct causation but it is possible because there is a correlation for some years."),
+    p("For research about the correlation between poverty and suicide rate from 2000 to 2015, we conclude 
     that these trends are weak to medium correlation for each year. In the scatterplot of 2000, 2005, 
     and 2015 we discovered there is a slight correlation of the higher percentage of poverty to suicide. 
     In 2010, there is less of a correlation so there is hard to see a concrete trend through each year. 
     This is why we can begin to conclude that the poverty rate of the state depending on the year, does 
-    not have a clear direct causation but it is possible because there is a correlation for some years.
-    To answer our research question, no there is not a directly relating causation factor from the 
+    not have a clear direct causation but it is possible because there is a correlation for some years."),
+    p("To answer our research question, no there is not a directly relating causation factor from the 
     social-economic factors we analyzed in our project. With more years added and the diversion of 
     counties/cities, we believe we could get more concrete conclusions on the effect of these factors 
-    on the suicide rates.
-    For the research about the trends of suicide by state from the years 2000 to 2015, 
+    on the suicide rates."),
+    p("For the research about the trends of suicide by state from the years 2000 to 2015, 
     we conclude that the suicide rate is going up in almost every state from 2000 to 2015. 
     We can see the circles that show on the map become bigger and bigger and the color become darker. 
-    These both show the increase of suicide number per state."
+    These both show the increase of suicide number per state.")
   )
 )
 
@@ -175,7 +175,7 @@ page_eight <- tabPanel(
     "We loaded all of our data sets through csv files and reading it into R. The major libraries 
     of data we used were the CDC, US Department of Labor's Bureau of Labor Statistics, and Census Bureau
     . We organized our code by csv files pertaining to the subject and section of our Shiny App. We hope
-    to be answering the questions of correlation between different variables in a personâ��s life and the 
+    to be answering the questions of correlation between different variables in a person's life and the 
     rate of suicide depending on those variable. Our shiny app is comprised tabs including an introduction
     to express the background and research questions, our 4 visualizations, a conclusion, the technology we
     used, and a page about our group. For the 3 scatter plot graphs, we are comparing one social-economic 
