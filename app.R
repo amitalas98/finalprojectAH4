@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 library(ggplot2)
 library(dplyr)
 library(plotly)
@@ -373,7 +372,7 @@ my_server <- shinyServer(function(input, output) {
     }
   })
 })
-=======
+
 library(ggplot2)
 library(dplyr)
 library(plotly)
@@ -1076,5 +1075,5 @@ my_server <- shinyServer(function(input, output) {
     }
   })
 })
->>>>>>> 99d55301bab9957c4b637ca8eca35b0d13dcc0a3
+
 shinyApp(ui = my_ui, server = my_server)
